@@ -42,7 +42,7 @@ h1{
     bottom: 0;
     box-shadow: 0 3px 5px #8b8eaf;
     filter: drop-shadow(3px 2px 4px #121212);
-    width: 200px;
+    width: 260px;
     left: 0;
     box-shadow: 8px 10px 10px 1px rgba(0,0, 0, 0.5);
      background-image: linear-gradient(rgb(34, 47, 57),rgba(49, 55, 82, 1));
@@ -242,7 +242,7 @@ footer .footer-content{
     top: 60px;
     left: 0;
     height: auto;
-    width: 200px;
+    width: 220px;
     transform: translateX(0);
   }
 
