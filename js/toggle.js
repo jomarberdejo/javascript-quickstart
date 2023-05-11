@@ -22,3 +22,41 @@ aboutContentTitle.forEach((title) => {
   });
 });
 
+/*Loading*/
+document.onreadystatechange = function () {
+
+  if (document.readyState !== "complete") {
+
+    document.querySelector(".loading-spinner-container").style.display = "flex";
+
+    document.body.style.overflow = "hidden";
+
+  } else {
+
+    document.querySelector(".loading-spinner-container").style.display = "none";
+
+    document.body.style.overflow = "auto";
+
+  }
+
+};
+
+const navLinks = document.querySelectorAll('nav ul li a');
+
+const spinnerContainer = document.querySelector('.loading-spinner-container');
+
+navLinks.forEach(link => {
+
+  link.addEventListener('click', () => {
+
+    spinnerContainer.style.display = 'flex';
+
+  });
+
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+
+  spinnerContainer.style.display = 'none';
+
+});
