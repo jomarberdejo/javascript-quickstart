@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Conditional Statements</title>
+ <link rel="icon" href="js-icon.png">
+  <!-- Fonts link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  
+  <!-- CSS link-->
+  <link rel="stylesheet" href="css/index.css">
+
+  <!-- JS link-->
+  <script defer src="js/script.js"></script>
+  <script defer src="js/toggle.js"></script>
+  <script defer src="js/dialog.js"></script>
+  
+
+  <!--Icons Link--> 
+  <script src="https://kit.fontawesome.com/ca7101e501.js" crossorigin="anonymous"></script>
+
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+  <script
+    type="nomodule"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+  </script>
+</head>
+<body>
+  <header>
+
+    <button class="sidebar-toggle">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+    <h1>JavaScript Quickstart</h1>
+  </header>
+  <!-- code for left-sidebar -->
+
+  <section class="section-container">
+
+    <div class="sidebar">
+
+      <nav>
+        <div class="logo">
+          <i class="fa-brands fa-square-js" style="color: #ffff00;"></i>
+        </div>
+        <ul>
+          <li><a href="index.html" title="JS Home">JS Home</a></li>
+          <li><a href="variables.html" title="JS Intro">JS Intro</a></li>
+          <li><a href="popup.html" title="JS Pop- Up Boxes">JS Pop Up</a></li>
+          <li><a href="arithmetic.html" title="JS Arithmetic Operators">JS Operators</a></li>
+          <li><a href="#" title="JS Conditional Statements" class="active">JS Statements</a></li>
+          <li><a href="loops.html" title="JS Loops">JS Loops</a></li>
+          <li><a href="array.html" title="Array">Array</a></li>
+          <li><a href="object.html" title="About">JS Object</a></li>
+          <li><a href="about.html" title="About">About</a></li>
+
+        </ul>
+
+
+      </nav>
+    </div>
+
+
+    <!-- code for main-content -->
+
+    <div class="main">
+      <div class="main-content">
+
+         <div id="open-dialog">
+          <img src="aboutme.png" alt="">
+        </div>
+
+        <dialog id="my-dialog">
+          <div class="close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <label>Hi I am <span>Jomar M. Berdejo</span>, I am here to assist you in your web development journey, I'm glad that you're here, spending your time learning with me.</label>
+          <div class="image-dialog">
+            <img src="mypic.jpg" alt="">
+          </div>
+        </dialog>
+
+        <h3>Javascript Conditional Statements</h3>
+        <p>
+          Conditional statements are used to execute certain code based on certain conditions. The if statement is used to execute code if a condition is true.
+        </p>
+
+        <h3>If statement</h3>
+
+        <p>
+          The if statement is used to execute code if a condition is true. In this case, the code inside the curly braces will be executed because num is greater than 0.
+        </p>
+
+
+        <!-- source code -->
+        <h3>Here's an example of If statement in JavaScript</h3>
+        <div class="source-code">
+          <pre><code>// if Statement
+let num = 5;
+if (num > 0) {
+alert("The number is positive.");
+ }
+          </code></pre>
+        </div>
+
+        <!--  example   -->
+        <div class="code-example">
+          <button class="code-example-button" onclick="ifEx()">
+            Check Result
+          </button>
+
+        </div>
+        <h3>If-else statement in Javascript</h3>
+        <p>
+          The if-else statement is used to execute one block of code if a condition is true and another block of code if the condition is false. In this case, the code inside the first set of curly braces will not be executed, and the code inside the second set of curly braces will be executed instead.
+        </p>
+        <h3>Here's an example of if-else in JavaScript</h3>
+
+        <!-- source code -->
+        <div class="source-code">
+          <pre><code>
+// if-else
+let num = -5;
+if (num > 0) {
+alert("The number is positive.");
+} else{
+    alert("The number is negative.");
+ }
+          </code></pre>
+        </div>
+
+        <!--  example   -->
+        <div class="code-example">
+          <button class="code-example-button" onclick="ifElseEx()">
+            Check Result
+          </button>
+        </div>
+
+        <h3>If-else-if-else in JavaScript</h3>
+        <p>
+          The if-else-if-else statement is used to execute different blocks of code based on different conditions. In this case, the code inside the third set of curly braces will be executed because num is equal to 0.
+        </p>
+
+        <h3>Here's an example code on of if-else-if-else statement in JavaScript</h3>
+
+        <!-- source code -->
+        <div class="source-code">
+          <pre><code>// if-else-if-else
+
+let num = 0;
+if (num > 0) {
+  alert("The number is positive.");
+  } 
+else if (num < 0) {
+   alert("The number is negative.");
+       }
+else {
+   alert("The number is zero.");
+      }
+            </code></pre>
+          </div>
+
+          <!--  example   -->
+
+          <div class="code-example">
+            <button class="code-example-button" onclick="ifElseifElseEx()">
+              Check Result
+            </button>
+          </div>
+
+          <h3>Nested if-else-if-else statement in JavaScript</h3>
+          <p>
+            The nested if-else-if-else statement is used when we need to check more than one condition in a specific block of code. In this case, we have one if statement nested within another if statement. <br> <br>
+            In this case, the code inside the first set of curly braces will be executed because num is greater than 0. The nested if-else statement will then check whether num is even or odd, and execute the appropriate code.
+          </p>
+
+          <h3>Here's an example code of nested if-else-if-else statement in JavaScript</h3>
+
+          <!-- source code -->
+          <div class="source-code">
+            <pre><code>
+// nested if-else-if-else
+
+let num = 10;
+  if (num > 0) {
+    if (num % 2 == 0) {
+      alert("The number is positive and even.");
+    } else {
+      alert("The number is positive and odd.");
+    }
+  } else if (num < 0) {
+    alert("The number is negative.");
+  } else {
+    alert("The number is zero.");
+  }
+};
+              </code></pre>
+            </div>
+
+            <!--  example   -->
+            <div class="code-example">
+              <button class="code-example-button" onclick="nestedStatement()">
+                Check Result
+              </button>
+            </div>
+
+
+            <!--  summary content for conditional statement operator -->
+
+            <h3>Summary</h3>
+            <p>
+              Overall, Conditional statement is a structure that allows the execution of a particular set of code depending on whether a certain condition is true or false. The most common example of a condition statement is the if statement, which evaluates a Boolean expression and executes a block of code if the expression is true.
+            </p>
+
+            <h3>Now challenge yourself, click the link below to practice!</h3>
+
+            <p>
+              <li><a href="https://codepen.io/pen/">https://codepen.io/pen/</a></li>
+            </p>
+
+          </div>
+
+
+
+        </div>
+
+
+
+
+
+
+      </section>
+
+      <!-- code for footer content -->
+      <footer>
+        <div class="footer-content">
+          <p>
+            Developed By <span class="footer-author"><a href="https://www.facebook.com/jemax123">Jomar M. Berdejo</a></span>
+          </p>
+
+          <div class="social-icons">
+            <a href="https://github.com/jomarberdejo"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/a_quilaaa/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/jemax123"><i class="fa-brands fa-facebook"></i></a>
+
+          </div>
+
+        </div>
+        </footer>
+
+
+        </body>
+      </html>

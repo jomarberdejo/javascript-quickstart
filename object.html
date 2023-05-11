@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Object</title>
+  <link rel="icon" href="js-icon.png">
+  <!-- Fonts link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+  <!-- CSS link-->
+  <link rel="stylesheet" href="css/index.css">
+
+  <!-- JS link-->
+  <script defer src="js/script.js"></script>
+  <script defer src="js/toggle.js"></script>
+  <script defer src="js/dialog.js"></script>
+  <!--Icons Link-->
+  <script src="https://kit.fontawesome.com/ca7101e501.js" crossorigin="anonymous"></script>
+
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+  <script
+    type="nomodule"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+  </script>
+
+</head>
+<body>
+  <header>
+
+    <button class="sidebar-toggle">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+    <h1>JavaScript Quickstart</h1>
+  </header>
+  <!-- code for left-sidebar -->
+
+  <section class="section-container">
+
+    <div class="sidebar">
+
+      <nav>
+        <div class="logo">
+          <i class="fa-brands fa-square-js" style="color: #ffff00;"></i>
+        </div>
+        <ul>
+          <li><a href="index.html" title="JS Home">JS Home</a></li>
+          <li><a href="variables.html" title="JS Intro">JS Intro</a></li>
+          <li><a href="popup.html" title="JS Pop- Up Boxes">JS Pop Up</a></li>
+          <li><a href="arithmetic.html" title="JS Arithmetic Operators">JS Operators</a></li>
+          <li><a href="conditionalstatement.html" title="JS Conditional Statements">JS Statements</a></li>
+          <li><a href="loops.html" title="JS Loops">JS Loops</a></li>
+          <li><a href="array.html" title="Array">JS Array</a></li>
+          <li><a href="#" title="About" class="active">JS Object</a></li>
+          <li><a href="about.html" title="About">About</a></li>
+
+        </ul>
+
+
+      </nav>
+    </div>
+
+
+    <!-- code for main-content -->
+
+    <div class="main">
+      <div class="main-content">
+
+        <div id="open-dialog">
+          <img src="aboutme.png" alt="">
+        </div>
+
+        <dialog id="my-dialog">
+          <div class="close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <label>Hi I am <span>Jomar M. Berdejo</span>, I am here to assist you in your web development journey, I'm glad that you're here, spending your time learning with me.</label>
+          <div class="image-dialog">
+            <img src="mypic.jpg" alt="">
+          </div>
+        </dialog>
+
+        <!--  js title -->
+        <h3>Javascript Object</h3>
+        <p>
+          In JavaScript, an object is a collection of key-value pairs, where the keys are strings (also called properties or attributes), and the values can be any valid JavaScript data type, including other objects, arrays, functions, and primitive data types such as numbers and strings. Objects are one of the fundamental data types in JavaScript and are used extensively in the language to represent data and functionality.
+        </p>
+
+        <!--  object code example here -->
+
+        <h3>In JavaScript, objects can be created using object literals, which are enclosed in curly braces `{}`, like this</h3>
+        <div class="source-code">
+          <pre><code>// JavaScript Object {} code example
+const person = {
+  name: 'John',
+  age: 30,
+  address: {
+    street: '123 Main St',
+    city: 'New York',
+    state: 'NY'
+  }
+};
+          </code></pre>
+        </div>
+
+        <p>
+          In the above example, `person` is an object with three properties: `name`, `age`, and `address`. The `address` property is itself an object with three properties: `street`, `city`, and `state`.
+        </p>
+
+
+        
+        <h3>Objects can also be created using the `Object()` constructor, like this:</h3>
+
+        <div class="source-code">
+          <pre><code>// JavaScript new Object() code example
+const person = new Object();
+person.name = 'John';
+person.age = 30;
+person.address = {
+  street: '123 Main St',
+  city: 'New York',
+  state: 'NY'
+};
+          </code></pre>
+        </div>
+        
+        <!--  Confirm code example here -->
+        <h3>In addition to adding properties to objects, you can also access and modify the properties of an object using dot notation or bracket notation. For example:</h3>
+        
+        <h3>Example for accessing values of an object</h3>
+
+        <div class="source-code">
+          <pre><code>const person = {
+  name: 'John',
+  age: 30,
+  address: {
+    street: '123 Main St',
+    city: 'New York',
+    state: 'NY'
+  }
+};
+
+alert(person.name); // Output: 'John'
+alert(person['age']); // Output: 30
+          </code></pre>
+        </div>
+        
+        <!--  Object example for accessing values button here -->
+        <div class="code-example">
+          <button class="code-example-button" onclick="accessObjectEx()">
+            Check Result
+          </button>
+        </div>
+        
+        
+                <h3>Example of modifying values of an object</h3>
+
+        <div class="source-code">
+          <pre><code>const person = {
+  name: 'John',
+  age: 30,
+  address: {
+    street: '123 Main St',
+    city: 'New York',
+    state: 'NY'
+  }
+};
+person.name = 'Jane';
+person['age'] = 35;
+
+alert(person.name); // Output: 'Jane'
+alert(person.age); // Output: 35
+          </code></pre>
+        </div>
+        
+        <!--  Object example for modifying values button here -->
+        <div class="code-example">
+          <button class="code-example-button" onclick="modifyObjectEx()">
+            Check Result
+          </button>
+        </div>
+        
+        <p>
+         Objects in JavaScript are dynamic, which means that you can add or remove properties from an object at any time. Objects can also be used to represent complex data structures, such as trees and graphs, and to encapsulate data and behavior in object-oriented programming.
+        </p>
+
+
+
+        <!--  objects summary -->
+
+        <h3>Summary</h3>
+        <p>
+          In summary, objects are a fundamental data type in JavaScript that allow you to represent collections of key-value pairs. An object is defined by a set of properties, where each property is identified by a unique key and has a corresponding value. Objects can contain properties that are themselves objects, allowing you to represent complex data structures. <br> <br> You can create objects using object literals or the Object constructor, and you can access and modify properties using dot notation or bracket notation. Objects are dynamic and can be modified at any time, making them a powerful tool for representing and manipulating data in JavaScript.
+        </p>
+
+
+        <h3>Now challenge yourself, click the link below to practice!</h3>
+
+        <p>
+          <li><a href="https://codepen.io/pen/">https://codepen.io/pen/</a></li>
+        </p>
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </section>
+
+  <!-- code for footer content -->
+  <footer>
+    <div class="footer-content">
+      <p>
+        Developed By <span class="footer-author"><a href="https://www.facebook.com/jemax123">Jomar M. Berdejo</a></span>
+      </p>
+
+      <div class="social-icons">
+        <a href="https://github.com/jomarberdejo"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/a_quilaaa/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/jemax123"><i class="fa-brands fa-facebook"></i></a>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+</body>
+</html>

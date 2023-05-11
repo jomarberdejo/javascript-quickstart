@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Loops</title>
+ <link rel="icon" href="js-icon.png">
+  <!-- Fonts link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  
+  <!-- CSS link-->
+  <link rel="stylesheet" href="css/index.css">
+
+  <!-- JS link-->
+  <script defer src="js/script.js"></script>
+  <script defer src="js/toggle.js"></script>
+  <script defer src="js/dialog.js"></script>
+  
+  
+
+  <!--Icons Link--> 
+  <script src="https://kit.fontawesome.com/ca7101e501.js" crossorigin="anonymous"></script>
+
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+  <script
+    type="nomodule"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+  </script>
+</head>
+<body>
+  <header>
+
+    <button class="sidebar-toggle">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+    <h1>JavaScript Quickstart</h1>
+  </header>
+  <!-- code for left-sidebar -->
+
+  <section class="section-container">
+
+    <div class="sidebar">
+
+      <nav>
+        <div class="logo">
+          <i class="fa-brands fa-square-js" style="color: #ffff00;"></i>
+        </div>
+        <ul>
+          <li><a href="index.html" title="JS Home">JS Home</a></li>
+          <li><a href="variables.html" title="JS Intro">JS Intro</a></li>
+          <li><a href="popup.html" title="JS Pop- Up Boxes">JS Pop Up</a></li>
+
+          <li><a href="arithmetic.html" title="JS Arithmetic Operators">JS Operators</a></li>
+          <li><a href="conditionalstatement.html" title="JS Conditional Statements">JS Statements</a></li>
+          <li><a href="#" title="JS Loops" class="active">JS Loops</a></li>
+          <li><a href="array.html" title="Array">JS Array</a></li>
+          <li><a href="object.html" title="About">JS Object</a></li>
+          <li><a href="about.html" title="About">About</a></li>
+
+        </ul>
+
+
+      </nav>
+    </div>
+
+
+    <!-- code for main-content -->
+
+    <div class="main">
+      <div class="main-content">
+
+        <div id="open-dialog">
+          <img src="aboutme.png" alt="">
+        </div>
+
+        <dialog id="my-dialog">
+          <div class="close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <label>Hi I am <span>Jomar M. Berdejo</span>, I am here to assist you in your web development journey, I'm glad that you're here, spending your time learning with me.</label>
+          <div class="image-dialog">
+            <img src="mypic.jpg" alt="">
+          </div>
+        </dialog>
+
+        <h3>JavaScript Loops</h3>
+        <p>
+          Loop is a control structure that allows you to execute a block of code multiple times. There are three types of loops in JavaScript: for loop, while loop, and do-while loop.
+        </p>
+
+        <h3>Js For Loop</h3>
+
+        <p>
+          For loop: The for loop is used to execute a block of code a specified number of times. It has three parts: initialization, condition, and increment/decrement.
+
+          Syntax: for (initialization; condition; increment/decrement) {
+          // code here
+          }
+
+
+        </p>
+
+        <!-- source code -->
+        <h3>Here's an example of for loop in JavaScript</h3>
+        <div class="source-code">
+          <pre><code>// JavaScript for loop code example
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+   }
+   
+/*
+Output:
+0
+1
+2
+3
+4
+*/
+            </code></pre>
+          </div>
+
+          <!--  example -->
+
+          <div class="code-example">
+            <button class="code-example-button" onclick="forLoopEx()">
+              Check Result
+            </button>
+          </div>
+          <h3>While Loop</h3>
+          <p>
+            While loop: The while loop is used to execute a block of code as long as the specified condition is true.
+            Syntax: while (condition) {
+            // code here
+            };
+
+
+          </p>
+
+          <!-- source code -->
+          <h3>Here's an example of while loop in JavaScript</h3>
+          <div class="source-code">
+            <pre><code>
+// JavaScript while loop code example
+let i = 0;
+
+while (i < 5) {
+  console.log(i);
+  i++;
+  }
+/*
+Output:
+
+0
+1
+2
+3
+4
+*/
+              </code></pre>
+            </div>
+
+            <!--  example -->
+            <div class="code-example">
+              <button class="code-example-button" onclick="whileLoopEx()">
+                Check Result
+              </button>
+            </div>
+
+
+            <h3>Do While Loop</h3>
+            <p>
+              The do-while loop is similar to the while loop, except that the code block is executed at least once, even if the condition is false.
+              Syntax: do {
+              // code to be executed
+              } while (condition);
+
+            </p>
+
+            <!-- source code -->
+            <h3>Here's an example of do while loop in JavaScript</h3>
+
+            <div class="source-code">
+              <pre><code>// JavaScript do while loop code example
+
+let i = 0;
+
+do {
+  console.log(i);
+  i++;
+   } while (i < 5);
+/*
+Output:
+
+0
+1
+2
+3
+4
+*/</code></pre>
+              </div>
+              <!--  example -->
+              <div class="code-example">
+                <button class="code-example-button" onclick="doWhileLoopEx()">
+                  Check Result
+                </button>
+              </div>
+
+
+
+              <!--  summary content for js loops -->
+
+              <h3>Summary</h3>
+              <p>
+                Overall, JavaScript Loops are used to repeatedly run a block of code - until a certain condition is met. When developers talk about iteration or iterating over, say, an array, it is the same as looping.
+
+
+              </p>
+
+              <h3>Now challenge yourself, click the link below to practice!</h3>
+
+              <p>
+                <li><a href="https://codepen.io/pen/">https://codepen.io/pen/</a></li>
+              </p>
+
+            </div>
+
+
+
+          </div>
+
+
+
+        </section>
+
+        <!-- code for footer content -->
+        <footer>
+          <div class="footer-content">
+            <p>
+              Developed By <span class="footer-author"><a href="https://www.facebook.com/jemax123">Jomar M. Berdejo</a></span>
+            </p>
+
+            <div class="social-icons">
+              <a href="https://github.com/jomarberdejo"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.instagram.com/a_quilaaa/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.facebook.com/jemax123"><i class="fa-brands fa-facebook"></i></a>
+
+            </div>
+
+          </div>
+          </footer>
+
+
+          </body>
+        </html>

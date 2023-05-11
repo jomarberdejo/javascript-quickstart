@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Arithmetic Operators</title>
+ <link rel="icon" href="js-icon.png">
+  <!-- Fonts link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  
+  <!-- CSS link-->
+  <link rel="stylesheet" href="css/index.css">
+
+  <!-- JS link-->
+  <script defer src="js/script.js"></script>
+  <script defer src="js/toggle.js"></script>
+  <script defer src="js/dialog.js"></script>
+
+  <!--Icons Link--> 
+  <script src="https://kit.fontawesome.com/ca7101e501.js" crossorigin="anonymous"></script>
+
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+  <script
+    type="nomodule"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+  </script>
+</head>
+<body>
+  <header>
+
+    <button class="sidebar-toggle">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+    <h1>JavaScript Quickstart</h1>
+  </header>
+  <!-- code for left-sidebar -->
+
+  <section class="section-container">
+
+    <div class="sidebar">
+
+      <nav>
+        <div class="logo">
+          <i class="fa-brands fa-square-js" style="color: #ffff00;"></i>
+        </div>
+        <ul>
+                <li><a href="index.html" title="JS Home">JS Home</a></li>
+                <li><a href="variables.html" title="JS Intro">JS Intro</a></li>
+                <li><a href="popup.html"  title="JS Pop- Up Boxes">JS Pop Up</a></li>
+                <li><a href="#" title="JS Arithmetic Operators" class="active">JS Operators</a></li>
+                <li><a href="conditionalstatement.html" title="JS Conditional Statements">JS Statements</a></li>
+                <li><a href="loops.html" title="JS Loops">JS Loops</a></li>
+                <li><a href="array.html"  title="Array">JS Array</a></li>
+                <li><a href="object.html" title="About">JS Object</a></li>
+                <li><a href="about.html" title="About">About</a></li>
+                
+        </ul>
+
+
+      </nav>
+    </div>
+
+
+    <!-- code for main-content -->
+
+    <div class="main">
+      <div class="main-content">
+        
+         <div id="open-dialog">
+          <img src="aboutme.png" alt="">
+        </div>
+        
+        <dialog id="my-dialog">
+          <div class="close">
+           <i class="fa-solid fa-xmark"></i>
+          </div>
+          <label>Hi I am <span>Jomar M. Berdejo</span>, I am here to assist you in your web development journey, I'm glad that you're here, spending your time learning with me.</label>
+          <div class="image-dialog">
+            <img src="mypic.jpg" alt="">
+          </div>
+        </dialog>
+        
+        <!--  Arithmetic title -->
+        <h3>Javascript Arithmetic Operators</h3>
+        <p>
+          In JavaScript, arithmetic operators are used to perform arithmetic operations on numerical values. The basic arithmetic operators include addition (+), subtraction (-), multiplication (*), and division (/). <br> <br> Additionally, JavaScript also includes the modulus operator (%), which returns the remainder of a division operation, and the exponentiation operator (**), which raises a number to a specified power.
+        </p>
+
+        <!--  js + operator code here -->
+        <h3>The + Operator in JavaScript</h3>
+
+        <p>
+          The + operator in JavaScript is used for addition when used with two numbers. For example, 2 + 3 would return 5. It can also be used to concatenate strings when used with a string and another type. For example, "Hello " + "world" would return "Hello world". In this case, the + operator acts as a string concatenation operator.
+        </p>
+
+        <!--  js + operator code example here -->
+        <h3>Here's an example of using + Operator in JavaScript</h3>
+        <div class="source-code">
+          <pre><code>
+// Addition
+alert(2 + 3); // Outputs 5
+
+//Concatenation
+alert("Hello" + " world"); Outputs Hello world
+          </code></pre>
+        </div>
+
+        <!--  js + operator example button here -->
+        <div class="code-example code-example-plusOperator">
+          <button class="code-example-button" onclick="addNum()">
+            Check Result
+          </button>
+
+          <button class="code-example-button" onclick="addString()">
+            Check Result
+          </button>
+
+        </div>
+
+        <!--  js - operator code here -->
+        <h3>The - Operator in Javascript</h3>
+        <p>
+          The - operator is the subtraction operator used for performing arithmetic subtraction between two numbers. It takes two numeric operands and returns the difference of the two numbers. For example, 5 - 3 will return 2.
+        </p>
+
+        <!--  js - operator code example here -->
+        <h3>Here's an example of using - Operator in JavaScript</h3>
+        <div class="source-code">
+          <pre><code>
+// Subtraction
+alert(10 - 5); // outputs 5
+          </code></pre>
+        </div>
+
+        <!--  js - operator example button here -->
+        <div class="code-example">
+          <button class="code-example-button" onclick="subtract()">
+            Check Result
+          </button>
+        </div>
+
+        <!--  js * operator code here -->
+        <h3>The * Operator in JavaScript</h3>
+        <p>
+          The * operator in JavaScript is the multiplication operator. It is used to multiply two numbers together and return the result. For example, the expression 3 * 4 would evaluate to 12, because 3 multiplied by 4 is 12.
+        </p>
+
+        <h3>Here's an example code on how to use * operator in JavaScript</h3>
+
+        <!--  js * operator code example here -->
+        <div class="source-code">
+          <pre><code>// multiplication
+alert(4 * 3); // Outputs 12
+          </code></pre>
+        </div>
+
+        <!--  js * operator example button here -->
+        <div class="code-example">
+          <button class="code-example-button" onclick="multiply()">
+            Check Result
+          </button>
+        </div>
+
+        <!--  js / operator code here -->
+        <h3>The / Operator in JavaScript</h3>
+
+        <p>
+
+          The / operator is used as the division operator between two numbers. It takes two numbers as operands, divides the first number by the second number, and returns the quotient as the result. For example, the expression 10 / 2 will return the value 5, as 10 divided by 2 is equal to 5.
+        </p>
+
+        <h3>Here's an example code on how to use / operator in JavaScript</h3>
+
+        <!--  js / operator code example here -->
+        <div class="source-code">
+          <pre><code>
+// Division
+
+alert(10 / 2); // Outputs 5
+          </code></pre>
+        </div>
+
+        <!--  js / operator example button here -->
+        <div class="code-example">
+          <button class="code-example-button" onclick="divide()">
+            Check Result
+          </button>
+        </div>
+
+
+        <!--  js % operator code here -->
+        <h3>The % Operator in JavaScript</h3>
+        <p>
+          The % operator is called the modulo operator. It returns the remainder of a division operation between two numbers. For example, if we divide 10 by 3 using the modulus operator, we get the remainder of 1, since 10 divided by 3 equals 3 with a remainder of 1.
+        </p>
+
+        <h3>Here's an example code on how to use % operator in JavaScript</h3>
+
+        <!--  js % operator code example here -->
+        <div class="source-code">
+          <pre><code>
+// Modulo
+
+alert(10 % 3); // Outputs 1
+          </code></pre>
+        </div>
+
+        <!--  js % operator example button here -->
+        <div class="code-example">
+          <button class="code-example-button" onclick="modulo()">
+            Check Result
+          </button>
+        </div>
+
+
+        <!--  js ** operator code here -->
+        <h3>The ** Operator in JavaScript</h3>
+        <p>
+          The "**" operator in JavaScript is the exponentiation operator, also known as the power operator. It is used to raise the left operand to the power of the right operand. For example, 2 ** 3 evaluates to 8, which is equivalent to 2 raised to the power of 3.
+        </p>
+
+        <h3>Here's an example code on how to use ** operator in JavaScript</h3>
+
+        <!--  js ** operator code example here -->
+        <div class="source-code">
+          <pre><code>
+// Exponentiation
+
+alert(2 ** 3); // Outputs 8
+          </code></pre>
+        </div>
+
+
+        <!--  js ** operator example button here -->
+        <div class="code-example">
+          <button class="code-example-button" onclick="exponential()">
+            Check Result
+          </button>
+        </div>
+
+        <!--  summary content for arithmetic operator -->
+
+        <h3>Summary</h3>
+        <p>
+          Overall, Arithmetic operators in JavaScript are used to perform mathematical operations on numerical values. There are several arithmetic operators available in JavaScript, including addition (+), subtraction (-), multiplication (*), division (/), remainder (%), and exponentiation (**).
+
+        </p>
+
+        <h3>Now challenge yourself, click the link below to practice!</h3>
+
+        <p>
+          <li><a href="https://codepen.io/pen/">https://codepen.io/pen/</a></li>
+        </p>
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+
+
+  </section>
+
+  <!-- code for footer content -->
+  <footer>
+    <div class="footer-content">
+      <p>
+        Developed By <span class="footer-author"><a href="https://www.facebook.com/jemax123">Jomar M. Berdejo</a></span>
+      </p>
+
+      <div class="social-icons">
+        <a href="https://github.com/jomarberdejo"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/a_quilaaa/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/jemax123"><i class="fa-brands fa-facebook"></i></a>
+
+      </div>
+
+    </div>
+    </footer>
+
+
+
+
+
+    </body>
+  </html>

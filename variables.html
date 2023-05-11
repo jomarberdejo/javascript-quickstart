@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Variables and Data Types</title>
+  <link rel="icon" href="js-icon.png">
+  <!-- Fonts link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  
+  <!-- CSS link-->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/content.css">
+  <link rel="stylesheet" href="css/dialog.css">
+
+  <!-- JS link-->
+  <script defer src="js/script.js"></script>
+  <script defer src="js/toggle.js"></script>
+  <script defer src="js/dialog.js"></script>
+
+  <!--Icons Link--> 
+  <script src="https://kit.fontawesome.com/ca7101e501.js" crossorigin="anonymous"></script>
+
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+  <script
+    type="nomodule"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+  </script>
+</head>
+<body>
+  <header>
+
+    <button class="sidebar-toggle">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+    <h1>JavaScript Quickstart</h1>
+  </header>
+  <!-- code for left-sidebar -->
+
+  <section class="section-container">
+
+    <div class="sidebar">
+
+      <nav>
+        <div class="logo">
+          <i class="fa-brands fa-square-js" style="color: #ffff00;"></i>
+        </div>
+        <ul>
+          <li><a href="index.html" title="JS Home">JS Home</a></li>
+          <li><a href="#" title="JS Intro" class="active">JS Intro</a></li>
+          <li><a href="popup.html" title="JS Pop- Up Boxes">JS Pop Up</a></li>
+          <li><a href="arithmetic.html" title="JS Arithmetic Operators">JS Operators</a></li>
+          <li><a href="conditionalstatement.html" title="JS Conditional Statements">JS Statements</a></li>
+          <li><a href="loops.html" title="JS Loops">JS Loops</a></li>
+          <li><a href="array.html" title="Array">JS Array</a></li>
+          <li><a href="object.html" title="About">JS Object</a></li>
+          <li><a href="about.html" title="About">About</a></li>
+          
+
+        </ul>
+
+
+      </nav>
+    </div>
+
+
+    <!-- code for main-content -->
+
+    <div class="main">
+      <div class="main-content">
+
+         <div id="open-dialog">
+          <img src="aboutme.png" alt="">
+        </div>
+
+        <dialog id="my-dialog">
+          <div class="close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <label>Hi I am <span>Jomar M. Berdejo</span>, I am here to assist you in your web development journey, I'm glad that you're here, spending your time learning with me.</label>
+          <div class="image-dialog">
+            <img src="mypic.jpg" alt="">
+          </div>
+        </dialog>
+
+        <h3>JavaScript Variables</h3>
+        <p>
+          In JavaScript, variables are used to store values that can be referenced and manipulated in a program. A variable is declared using the var, let, or const keyword, followed by the variable name, and optionally initialized with a value.
+        </p>
+
+        <!-- source code -->
+        <h3>Here are the examples of variable declarations in JavaScript</h3>
+        <div class="source-code">
+          <pre><code>var name = "John"; // declares a variable named "name" with the value "John"
+let age = 30; // declares a variable named "age" with the value 30
+const PI = 3.14159; // declares a constant variable named "PI" with the value 3.14159
+
+          </code></pre>
+        </div>
+
+        <h3>JavaScript Data Types</h3>
+
+
+        <p>
+          In JavaScript, there are several types of data that can be stored in variables. These data types include:
+
+        </p>
+
+
+
+        <h3>String</h3>
+        <p>
+          A string is a sequence of characters, enclosed in single or double quotes. Example: "Hello, World!".
+        </p>
+
+        <h3>Booleans</h3>
+        <p>
+          A boolean is a value that can be either true or false. Example: true.
+        </p>
+
+        <h3>Array</h3>
+        <p>
+          An array is a collection of values, enclosed in square brackets and separated by commas. Example: [1, 2, 3].
+        </p>
+
+        <h3>Object</h3>
+        <p>
+          An object is a collection of key-value pairs, enclosed in curly braces. Example: {name: "John", age: 30}.
+        </p>
+
+
+
+
+        <!-- source code -->
+        <h3>Here are some examples of variables with different data types</h3>
+
+        <div class="source-code">
+          <pre><code>var name = "John"; // string variable
+let age = 30; // number variable
+const isStudent = true; // boolean constant variable
+let numbers = [1, 2, 3, 4]; // array variable
+const person = {name: "John", age: 30}; // object constant variable
+
+          </code></pre>
+        </div>
+
+        <!--  summary content for js variables and data types -->
+
+        <h3>Summary</h3>
+        <p>
+          Overall, variables are used to store values that can be referenced and manipulated in a program. A variable is declared using the var, let, or const keyword, followed by the variable name, and optionally initialized with a value. There are several types of data that can be stored in variables in JavaScript, including strings, numbers, booleans, arrays, and objects.
+        </p>
+
+
+
+        <h3>Now challenge yourself, click the link below to practice!</h3>
+
+        <p>
+          <li><a href="https://codepen.io/pen/">https://codepen.io/pen/</a></li>
+        </p>
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </section>
+
+  <!-- code for footer content -->
+  <footer>
+    <div class="footer-content">
+      <p>
+        Developed By <span class="footer-author"><a href="https://www.facebook.com/jemax123">Jomar M. Berdejo</a></span>
+      </p>
+
+      <div class="social-icons">
+        <a href="https://github.com/jomarberdejo"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/a_quilaaa/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/jemax123"><i class="fa-brands fa-facebook"></i></a>
+
+      </div>
+
+    </div>
+    </footer>
+
+
+    </body>
+  </html>

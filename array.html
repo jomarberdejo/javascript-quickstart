@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Array</title>
+ <link rel="icon" href="js-icon.png">
+  <!-- Fonts link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  
+  <!-- CSS link-->
+  <link rel="stylesheet" href="css/index.css">
+
+  <!-- JS link-->
+  <script defer src="js/script.js"></script>
+  <script defer src="js/toggle.js"></script>
+  <script defer src="js/dialog.js"></script>
+  
+
+  <!--Icons Link--> 
+  <script src="https://kit.fontawesome.com/ca7101e501.js" crossorigin="anonymous"></script>
+
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+  <script
+    type="nomodule"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+  </script>
+
+</head>
+<body>
+  <header>
+
+    <button class="sidebar-toggle">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+    <h1>JavaScript Quickstart</h1>
+  </header>
+  <!-- code for left-sidebar -->
+
+  <section class="section-container">
+
+    <div class="sidebar">
+
+      <nav>
+        <div class="logo">
+          <i class="fa-brands fa-square-js" style="color: #ffff00;"></i>
+        </div>
+        <ul>
+          <li><a href="index.html" title="JS Home">JS Home</a></li>
+          <li><a href="variables.html" title="JS Intro">JS Intro</a></li>
+          <li><a href="popup.html" title="JS Pop- Up Boxes">JS Pop Up</a></li>
+          <li><a href="arithmetic.html" title="JS Arithmetic Operators">JS Operators</a></li>
+          <li><a href="conditionalstatement.html" title="JS Conditional Statements">JS Statements</a></li>
+          <li><a href="loops.html" title="JS Loops">JS Loops</a></li>
+          <li><a href="#"class="active" title="Array">JS Array</a></li>
+          <li><a href="object.html" title="About">JS Object</a></li>
+          <li><a href="about.html" title="About">About</a></li>
+
+        </ul>
+
+
+      </nav>
+    </div>
+
+
+    <!-- code for main-content -->
+
+    <div class="main">
+      <div class="main-content">
+
+       <div id="open-dialog">
+          <img src="aboutme.png" alt="">
+        </div>
+
+        <dialog id="my-dialog">
+          <div class="close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <label>Hi I am <span>Jomar M. Berdejo</span>, I am here to assist you in your web development journey, I'm glad that you're here, spending your time learning with me.</label>
+          <div class="image-dialog">
+            <img src="mypic.jpg" alt="">
+          </div>
+        </dialog>
+
+
+        <h3>JavaScript Array</h3>
+        <p>
+          JavaScript array is a data structure that allows you to store and manipulate collections of values or elements. It is a special type of object that holds a list of values, which can be of any data type, such as numbers, strings, objects, or other arrays. <br> <br> Arrays in JavaScript are zero-indexed, which means that the first element in an array is located at index 0, the second element is located at index 1, and so on. You can access and modify array elements using their index number.
+        </p>
+
+        <!-- source code -->
+        <h3>Here is an example of how to create an array in JavaScript.</h3>
+        <div class="source-code">
+          <pre><code>//Declaring an empty array using Array() constructor and array literal notation []
+let emptyArr = new Array();
+let anotherEmptyArr= [];
+
+// array of numbers
+let numbers = [1, 2, 3, 4, 5];
+
+// array of strings
+let fruits = ["apple", "banana", "orange"];
+
+// array of different data types
+let mixed = [1, "apple", true, null];
+          </code></pre>
+        </div>
+
+        <h3>You can also modify an element in an array by assigning a new value to its index number</h3>
+
+        <div class="source-code">
+
+          <pre><code>let numbers = [1, 2, 3, 4, 5];
+
+// changing the value of the second element in the array
+numbers[1] = 10;
+
+alert(numbers); // output: [1, 10, 3, 4, 5]
+          </code></pre>
+        </div>
+
+
+        <h3>Arrays in JavaScript have many built-in methods that you can use to manipulate and work with them, such as push(), pop(), shift(), unshift() and many more.</h3>
+
+        <h3>Push()</h3>
+
+        <p>
+          The push() is a built-in method of an array that adds one or more elements to the end of the array and returns the new length of the array.
+        </p>
+
+        <!-- source code -->
+        <h3>Here's an example of push() method in JavaScript.</h3>
+        <div class="source-code">
+          <pre><code>let fruits = ['apple', 'banana', 'orange'];
+// adding a new fruit to the end of the array
+fruits.push('plum');
+
+alert(fruits); // output: ['apple', 'banana', 'orange', 'plum']
+          </code></pre>
+        </div>
+
+        <!--  example -->
+        <div class="code-example">
+          <button class="code-example-button" onclick="pushEx()">
+            Check Result
+          </button>
+        </div>
+
+
+        <h3>Pop()</h3>
+        <p>
+          The pop() is a built-in method of an array that removes the last element from the array and returns that element.
+        </p>
+
+        <!-- source code -->
+        <h3>Here's an example of pop() method in JavaScript.</h3>
+
+        <div class="source-code">
+          <pre><code>let fruits = ['apple', 'banana', 'orange'];
+
+// remove the last fruit from the array
+fruits.pop();
+
+alert(fruits); // output: ['apple', 'banana']
+          </code></pre>
+        </div>
+
+        <!--  example -->
+        <div class="code-example">
+          <button class="code-example-button" onclick="popEx()">
+            Check Result
+          </button>
+        </div>
+
+        <h3>Shift()</h3>
+
+        <p>
+
+          The shift() is a built-in method of an array that removes the first element from the array and returns that element.
+        </p>
+
+        <!-- source code -->
+        <h3>Here's an example of shift() method in JavaScript.</h3>
+
+        <div class="source-code">
+          <pre><code>let fruits = ['apple', 'banana', 'orange'];
+
+// removing the first fruit from the array
+fruits.shift();
+
+alert(fruits); // output: ['banana', 'orange']
+          </code></pre>
+        </div>
+
+        <!--  example -->
+        <div class="code-example">
+          <button class="code-example-button" onclick="shiftEx()">
+            Check Result
+          </button>
+        </div>
+
+        <h3>Unshift()</h3>
+        <p>
+          The unshift() is a built-in method of an array that adds one or more elements to the beginning of the array and returns the new length of the array.
+        </p>
+
+        <!-- source code -->
+        <h3>Here's an example of unshift() method in JavaScript.</h3>
+
+        <div class="source-code">
+          <pre><code>let fruits = ['banana', 'orange'];
+
+// adding a new fruit to the beginning of the array
+fruits.unshift('apple');
+
+alert(fruits); // output: ['apple', 'banana', 'orange']
+          </code></pre>
+        </div>
+
+        <!--  example -->
+        <div class="code-example">
+          <button class="code-example-button" onclick="unshiftEx()">
+            Check Result
+          </button>
+        </div>
+
+        <h3>Multidimensional Array</h3>
+        <p>
+          Multidimensional array is an array that contains one or more arrays as its elements. Each array within the multidimensional array is a separate dimension or level of the array, and the elements of each array can be accessed by specifying both the index of the array and the index of the element within that array.
+        </p>
+
+        <!-- source code -->
+        <h3>Here's an example of multidimensional array in JavaScript.</h3>
+
+        <div class="source-code">
+          <pre><code>const myArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+];
+// example on how to access data from multidimensional array
+
+const data = myArray[1][2];
+alert(data); // Output: 6
+
+          </code></pre>
+        </div>
+
+        <!--  example -->
+        <div class="code-example">
+          <button class="code-example-button" onclick="multiArrayEx()">
+            Check Result
+          </button>
+        </div>
+
+       <p>
+         In this example, myArray is a two-dimensional array with three rows and three columns.
+     
+          To access the elements of this array, you need to specify both the index of the row and the index of the column. For example, to access the data in the second row and third column (which has a value of 6), you can use the following code above.
+           <br><br>
+           You can also use the same 4 methods and other methods that is built-in in an array to manipulate multidimensional array.
+       </p>
+
+        <!--  summary content for js loops -->
+
+        <h3>Summary</h3>
+        <p>
+          Overall, All four of these methods modify the original array, but they return a value that you can use if needed. By using these methods, you can add, remove, or manipulate elements in an array without having to manually reassign the entire array.
+
+        </p>
+
+        <h3>Here's an example project implementing those 4 array methods in JavaScript.</h3>
+
+        <li><a href="https://array-methods-jomar.vercel.app">
+          https://array-methods-jomar.vercel.app
+        </a></li>
+        <li><a href="https://basic-array-method.vercel.app">
+          https://basic-array-method.vercel.app
+        </a></li>
+        
+        <li><a href="https://multidimensional-array.vercel.app">
+          https://multidimensional-array.vercel.app
+        </a></li>
+
+        <h3>Now challenge yourself, click the link below to practice!</h3>
+
+        <p>
+          <li><a href="https://codepen.io/pen/">https://codepen.io/pen/</a></li>
+        </p>
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </section>
+
+  <!-- code for footer content -->
+  <footer>
+    <div class="footer-content">
+      <p>
+        Developed By <span class="footer-author"><a href="https://www.facebook.com/jemax123">Jomar M. Berdejo</a></span>
+      </p>
+
+      <div class="social-icons">
+        <a href="https://github.com/jomarberdejo"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/a_quilaaa/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/jemax123"><i class="fa-brands fa-facebook"></i></a>
+
+      </div>
+
+    </div>
+    </footer>
+
+
+    </body>
+  </html>
