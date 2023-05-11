@@ -88,7 +88,7 @@ iframe{
 }
 
 .source-code pre {
-  background-color: #fdf4f5;
+  background-color: #292931;
   padding: 10px;
   border-radius: 5px;
   font-size: 1rem;
@@ -97,6 +97,7 @@ iframe{
   margin-bottom: 20px;
 }
 /*scrollbar*/
+/*
 .source-code pre::-webkit-scrollbar {
  
   height: 10px;
@@ -110,10 +111,12 @@ iframe{
   border-radius: 20px;
   border: 1px solid yellow;
 }
+*/
 
 .source-code pre code {
   font-family: Courier New;
-  color: #333;
+ 
+  color: #e1cfd9;
 }
 
 .main .main-content .code-example {
