@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&family=Overpass:wght@100;200;300;400;500;600;700;800;900&family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/*Variables colors*/
+:root {
+  --background-color-light: #fff;
+  --text-color-light: #333;
+  --background-color-dark: #171e1e;
+  --text-color-dark: #fff;
+  --border-color: #abc4aa;
+}
+
+/*css for main content starts here*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1.4px;
+  font-size: 16px;
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+}
+
+.main {
+  width: 92%;
+  max-width: 100%;
+  margin-top: 70px;
+  margin-left: 180px;
+}
+
+.main .main-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 100px;
+}
+
+.main .main-content h3 {
+  font-size: 1.6rem;
+  margin: 30px 0px;
+  /*color: #f3deba;*/
+  font-weight: 500;
+}
+.main .main-content p {
+  font-size: 1.3rem;
+  margin-left: 50px;
+  color: #dfdfe3;
+}
+
+.main .main-content li {
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 50px;
+}
+
+.main .main-content li a {
+  font-size: 1.3rem;
+  color:/*#FFA50*/ #4fc2fa;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/*Example codes start here*/
+.main .main-content .source-code {
+  max-width: 335px;
+  margin: auto;
+}
+
+.source-code pre {
+  background-color: #fdf4f5;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  line-height: 1.5;
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+/*scrollbar*/
+.source-code pre::-webkit-scrollbar {
+ 
+  height: 10px;
+}
+.source-code pre::-webkit-scrollbar-track {
+  background: #16ff00;
+  border-radius: 20px;
+}
+.source-code pre::-webkit-scrollbar-thumb {
+  background-color: #121212;
+  border-radius: 20px;
+  border: 1px solid yellow;
+}
+
+.source-code pre code {
+  font-family: Courier New;
+  color: #333;
+}
+
+.main .main-content .code-example {
+  width: auto;
+  margin: auto;
+}
+
+.code-example .code-example-button {
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+  font-family: Lato;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 8px 10px 10px 1px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(rgb(34, 47, 57), rgba(49, 55, 82, 1));
+  cursor: pointer;
+  letter-spacing: 1.3px;
+  margin: 1.2rem;
+}
+
+.code-example .code-example-button:hover {
+  background-image: linear-gradient(#333, #000);
+}
+
+.about-title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 15px 0px;
+  color: #f3deba;
+  font-weight: 700;
+}
+
+/*style for about page*/
+.about-content-title {
+  cursor: pointer;
+  font-weight: bold;
+  position: relative;
+}
+
+.about-content {
+  display: none;
+}
+
+.about-content p {
+  margin: 0;
+}
+
+.about-content.show {
+  display: block;
+}
+
+/* style for contact form */
+
+.form-container {
+  width: 450px;
+  margin: 50px auto;
+  background-color: #5e5e5e20;
+  border-radius: 10px;
+  padding: 10px 40px;
+}
+
+.contact-us-title {
+  text-align: center;
+  padding: 4px;
+  margin: 10px 0;
+  font-size: 1.85rem;
+  color: #f3deba;
+  font-weight: 700;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+textarea {
+  height: 150px;
+}
+
+.submit-container {
+  display: grid;
+  place-items: center;
+}
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+
+/*Style for max-width 1240px starts */
+/*content*/
+@media (max-width: 1240px) {
+  .main {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 70px;
+    margin-left: 220px;
+  }
+
+  .main .main-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+  }
+  .main .main-content h3 {
+    margin: 10px 0;
+  }
+  .main .main-content p {
+    padding-left: 100px;
+  }
+
+  .main .main-content li {
+    list-style: none;
+    margin-top: 10px;
+    padding-left: 100px;
+  }
+}
+/*content*/
+/*max width 1240px ends here*/
+
+
+/*max-width 1239px starts here*/
+  /*content*/
+@media (max-width: 1239px) {
+  .main {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 70px;
+    margin-left: 0;
+  }
+
+  .main .main-content h3 {
+    margin: 20px 5px;
+  }
+  .main .main-content p {
+    margin-left: 1px;
+    padding-left: 60px;
+  }
+
+  .main .main-content .source-code {
+    margin-top: 2rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main .main-content li {
+    margin-left: 5px;
+    margin-top: 10px;
+    padding-left: 60px;
+    word-wrap: break-word;
+  }
+}
+/*content*/
+
+/*max-width 1239px ends here*/
+
+
+/*max-width 606px starts here*/
+ /*content*/
+ @media (max-width: 606px) {
+ .main {
+    width: 100%;
+    margin-left: 0;
+    padding-right: 5px;
+    margin-top: 55px;
+    max-width: 100%;
+  }
+
+  .main .main-content {
+    padding: 10px 5px;
+  }
+  .main .main-content h3 {
+    font-size: 1.4rem;
+    margin: 20px 3px;
+    line-height: 1.5;
+    letter-spacing: 1.3px;
+  }
+  .main .main-content p,
+  .main .main-content li {
+    padding-left: 25px;
+  }
+  .main .main-content li {
+    list-style: none;
+    word-wrap: break-word;
+  }
+
+  .main .main-content p,
+  .main .main-content li a {
+    font-size: 1rem;
+    letter-spacing: 1.3px;
+    line-height: 1.5;
+  }
+
+  .code-example-plusOperator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .form-container {
+    width: 95%;
+    padding: 8px 10px;
+  }
+  .contact-us-title {
+    margin: 8px 0;
+
+    color: #f3deba;
+    font-weight: 700;
+  }
+}
+ /*content*/
+/*max-width 606px ends here*/
+
+
