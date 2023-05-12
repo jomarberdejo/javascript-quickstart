@@ -8,7 +8,7 @@
 
   position: fixed;
 
-  z-index: 9999;
+  z-index: 10000;
 
   top: 0;
 
@@ -40,7 +40,7 @@
 
   height: 50px;
 
-  animation: spin 0.5s linear infinite;
+  animation: spin 0.8s linear infinite;
 
 }
 
