@@ -29,17 +29,17 @@ document.onreadystatechange = function () {
 
     document.querySelector(".loading-spinner-container").style.display = "flex";
 
-    document.body.style.display = "none";
+    document.body.style.overflow = "hidden";
 
   } else {
 
-    setTimeout(function() {
+   
 
     document.querySelector(".loading-spinner-container").style.display = "none";
 
-    document.body.style.display = "flex";
+    document.body.style.overflow = "auto";
 
-}, 8000); 
+
   }
 
 };
