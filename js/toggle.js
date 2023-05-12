@@ -29,7 +29,7 @@ document.onreadystatechange = function () {
 
     document.querySelector(".loading-spinner-container").style.display = "flex";
 
-    document.body.style.overflow = "hidden";
+    document.body.style.display = "none";
 
   } else {
 
@@ -37,9 +37,9 @@ document.onreadystatechange = function () {
 
     document.querySelector(".loading-spinner-container").style.display = "none";
 
-    document.body.style.overflow = "auto";
+    document.body.style.display = "flex";
 
-}, 5000); 
+}, 8000); 
   }
 
 };
