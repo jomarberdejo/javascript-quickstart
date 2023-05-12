@@ -33,10 +33,13 @@ document.onreadystatechange = function () {
 
   } else {
 
+    setTimeout(function() {
+
     document.querySelector(".loading-spinner-container").style.display = "none";
 
     document.body.style.overflow = "auto";
 
+}, 1500); 
   }
 
 };
