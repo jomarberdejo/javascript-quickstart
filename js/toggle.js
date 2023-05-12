@@ -39,7 +39,7 @@ document.onreadystatechange = function () {
 
     document.body.style.overflow = "auto";
 
-}, 1500); 
+}, 5000); 
   }
 
 };
