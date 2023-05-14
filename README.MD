@@ -29,6 +29,16 @@ The site is supported by a set of CSS and JS files that ensure its layout and fu
 - `dialog.js`
 - `quiz.js`
 
+## Dependencies
+
+- sweet alert js
+
+- font awesome icons library
+
+- google fonts
+
+- icon icons
+
 While the site is responsive to most screen sizes, I'm still working on making it accessible to everyone.
 
 Throughout the development of this site, I sought help from various resources to ensure that the content is accurate and easy to understand. These include:
