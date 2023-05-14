@@ -34,7 +34,7 @@ const quizForm = document.getElementById('quiz-container');
 	      Swal.fire({
 	        background: 'gold',
 	        color: '#fff',
-      title: `<p style= "color: #000">Perfect! </p>`,
+      title: `<p style= "color: #000; font-weight: 500">Perfect! </p>`,
       html: `<p style= "color: #000"> Congratulations! You got ${score} (${scorePercentage}%) out of ${questions.length} questions correct! <br> <br> Result: Pass.</p>`,
       icon: 'success',
       iconColor: '#fff',
@@ -44,7 +44,7 @@ const quizForm = document.getElementById('quiz-container');
 	    
       Swal.fire({
   title: ` <p style= "color: #fff">Not bad! </p>` ,
-  html: ` <p style= "color: #fff"> Congratulations! You answered ${score} (${scorePercentage}%) out of 10 questions correctly. <br> <br> Result: Pass. </p> `,
+  html: ` <p style= "color: #fff; font-weight: 500"> Congratulations! You answered ${score} (${scorePercentage}%) out of 10 questions correctly. <br> <br> Result: Pass. </p> `,
     icon: 'success',
     background: 'green',
     iconColor: '#fff',
@@ -55,7 +55,7 @@ const quizForm = document.getElementById('quiz-container');
     Swal.fire({
       background: 'red',
       title: `<p style= "color: #fff">Sorry! </p>`,
-      html: `<p style= "color: #fff">You got ${score} (${scorePercentage}%) out of ${questions.length} questions correct. Please try again. <br> <br> Result: Fail. </p>`,
+      html: `<p style= "color: #fff; font-weight: 500">You got ${score} (${scorePercentage}%) out of ${questions.length} questions correct. Please try again. <br> <br> Result: Fail. </p>`,
       icon: 'error',
       iconColor: '#fff',
       
