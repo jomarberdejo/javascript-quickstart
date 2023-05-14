@@ -108,4 +108,14 @@ The quiz page on this site is particularly useful for assessing your knowledge o
 
 I designed this site to be open to everyone who wants to learn JavaScript from scratch. I hope it serves as a useful starting point for your web development journey. Please feel free to provide feedback on the site's content and design, as I am always looking for ways to improve it.
 
-You can access a live demo of the site at javascript-quickstart.vercel.app. Finally, I would like to thank all the resources I used to develop this site, as well as my teacher, who provided the Google Classroom materials that inspired me to create this tutorial.
+You can access a live demo of the site at javascript-quickstart.vercel.app. Finally, I would like to thank all the resources I used to develop this site, as well as my teacher, who guided me to do this final activity, and also for providing the Google Classroom materials that inspired me to create this tutorial.
+
+
+## Contact Me
+If you have any suggestions, problems, or clarifications regarding this site, please don't hesitate to contact me through any of the following channels:
+
+- Email: berdejojomar@gmail.com
+- Facebook: https://www.facebook.com/jemax123
+- Instagram: https://www.instagram.com/a_quilaaa/
+
+I'm open to feedback and would love to hear from you!
