@@ -15,7 +15,11 @@
       font-family: Inter, sans-serif;
       background-color: #222222;
 	}
+       .section-container{
 
+    display: block !important;
+
+}
 	
 	/*QuizLayout*/
 	.quiz{
