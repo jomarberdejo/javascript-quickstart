@@ -16,7 +16,7 @@ window.onload = () => {
     const scorePercentage = (score / questions.length) * 100;
     Swal.fire({
       title: "Welcome back!",
-      text: `Your current score is ${currentScore} (${scorePercentage}%)`,
+      text: `Your latest score is ${currentScore} (${scorePercentage}%), click reset to start again.`,
       icon: "info",
     });
   }
