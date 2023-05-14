@@ -81,6 +81,7 @@ h1{
 /* homepage css starts here */
 .section-container{
     display: flex;
+
 }
 
 
@@ -141,9 +142,11 @@ li a{
   position: relative;
   text-decoration: none;
 }
+
 .about-content-title{
   max-width: max-content;
 }
+
 li a::before, .about-content-title::before{
   content: "";
   position: absolute;
