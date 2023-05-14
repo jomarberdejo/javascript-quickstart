@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript Pop Up Message Box</title>
+  <link rel="icon" href="js-icon.png">
+  <!-- Fonts link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- CSS link-->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/quiz.css">
+
+  <!-- JS link-->
+  <script defer src="js/quiz.js"></script>
+  <script defer src="js/toggle.js"></script>
+  
+  <!--Icons Link-->
+  <script src="https://kit.fontawesome.com/ca7101e501.js" crossorigin="anonymous"></script>
+  
+  <!---Sweet alert js-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.css">
+  
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+  <script
+    type="nomodule"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+  </script>
+
+</head>
+<body>
+  <div class="loading-spinner-container">
+    <div class="loading-spinner"></div>
+  </div>
+  <header>
+
+    <button class="sidebar-toggle">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+    <h1>JavaScript Quickstart</h1>
+  </header>
+  <!-- code for left-sidebar -->
+
+  <section class="section-container">
+
+    <div class="sidebar">
+
+      <nav>
+        <div class="logo">
+          <i class="fa-brands fa-square-js" style="color: #ffff00;"></i>
+        </div>
+        <ul>
+          <li><a href="index.html" title="JS Home">JS Home</a></li>
+          <li><a href="variables.html" title="JS Intro">JS Intro</a></li>
+          <li><a href="popup.html" title="JS Pop- Up Boxes">JS Pop Up</a></li>
+          <li><a href="arithmetic.html" title="JS Arithmetic Operators">JS Operators</a></li>
+          <li><a href="conditionalstatement.html" title="JS Conditional Statements">JS Statements</a></li>
+          <li><a href="loops.html" title="JS Loops">JS Loops</a></li>
+          <li><a href="array.html" title="Array">JS Array</a></li>
+          <li><a href="object.html" title="About">JS Object</a></li>
+         <li><a href="quiz.html" title="Quiz" class="active">Quiz</a></li>
+          <li><a href="about.html" title="About">About</a></li>
+
+        </ul>
+
+
+      </nav>
+    </div>
+
+
+    <!-- code for main-content -->
+
+    <div class="main">
+      <div class="main-content">
+    
+    <!---Quiz start-->
+        <section class="quiz">
+  <h2>JavaScript Quiz<hr></h2>
+	<form id="quiz-container">
+	  
+		<div class="question">
+			<h3>Q: What are the three different ways to declare a variable in JavaScript?</h3>
+			<label for="q1a1"><input type="radio" id="q1a1" name="q1" value="correct1">var, let, and const</label>
+
+			<label for="q1a2"><input type="radio" id="q1a2" name="q1" value="wrong1">var, const, and function</label>
+
+			<label for="q1a3"><input type="radio" id="q1a3" name="q1" value="wrong1"> var, let, and function</label>
+		</div>
+		
+		<div class="question">
+			<h3>Q: Which operator is used for string concatenation in JavaScript?</h3>
+			<label for="q2a1"><input type="radio" id="q2a1" name="q2" value="correct2">+</label>
+
+			<label for="q2a2"><input type="radio" id="q2a2" name="q2" value="wrong2">-</label>
+		
+			<label for="q2a3"><input type="radio" id="q2a3" name="q2" value="wrong2">*</label>
+			
+		</div>
+		
+	<div class="question">
+			<h3>Q: What will be the output of this console.log(3+2+'7') ?</h3>
+			<label for="q3a1"><input type="radio" id="q3a1" name="q3" value="wrong3">12</label>
+			
+			<label for="q3a2"><input type="radio" id="q3a2" name="q3" value="correct3">57</label>
+
+			<label for="q3a3">			<input type="radio" id="q3a3" name="q3" value="wrong3">39</label>
+
+  </div>
+		
+	<div class="question">
+			<h3>Q: What is the syntax for a 'for' loop in JavaScript?</h3>
+			<label for="q4a1"><input type="radio" id="q4a1" name="q4" value="correct4">for (var i = 0; i < 10; i++)</label>
+			
+			<label for="q4a2">			<input type="radio" id="q4a2" name="q4" value="wrong4">for (i = 0; i < 10; i++)</label>
+
+			<label for="q4a3">			<input type="radio" id="q4a3" name="q4" value="wrong4">for (i < 10; i++; var)</label>
+
+		</div>
+		
+    <div class="question">
+			<h3>Q: High-level, interpreted programming language that is widely used for web development. </h3>
+			<label for="q5a1"><input type="radio" id="q5a1" name="q5" value="wrong5">Java</label>
+
+			<label for="q5a2">			<input type="radio" id="q5a2" name="q5" value="wrong5">HTML</label>
+
+			<label for="q5a3">			<input type="radio" id="q5a3" name="q5" value="correct5">JavaScript</label>
+
+		</div>
+		
+	 <div class="question">
+			<h3>Question: Which function is used to display an alert box in JavaScript?</h3>
+			<label for="q6a1"><input type="radio" id="q6a1" name="q6" value="wrong6">prompt()</label>
+
+			<label for="q6a2">			<input type="radio" id="q6a2" name="q6" value="correct6">alert()</label>
+
+			<label for="q6a3">			<input type="radio" id="q6a3" name="q6" value="wrong6">confirm()</label>
+
+		</div>
+		
+		<div class="question">
+			<h3>Q: Which function is used to display a prompt box in JavaScript?</h3>
+			<label for="q7a1">			<input type="radio" id="q7a1" name="q7" value="wrong7">confirm()</label>
+
+			<label for="q7a2">			<input type="radio" id="q7a2" name="q7" value="correct7">prompt()</label>
+
+			<label for="q7a3">			<input type="radio" id="q7a3" name="q7" value="wrong7">alert()</label>
+
+		</div>
+		
+				<div class="question">
+			<h3>Q: What is an array in JavaScript?</h3>
+			<label for="q8a1">			<input type="radio" id="q8a1" name="q8" value="correct8">A collection of values of any type</label>
+
+			<label for="q8a2">			<input type="radio" id="q8a2" name="q8" value="wrong8">A collection of objects</label>
+
+			<label for="q8a3">			<input type="radio" id="q8a3" name="q8" value="wrong8">A collection of strings</label>
+
+		</div>
+		
+		<div class="question">
+			<h3>Q: What is the index of the first element in an array?</h3>
+			<label for="q9a1">			<input type="radio" id="q9a1" name="q9" value="correct9">0</label>
+
+			<label for="q9a2">			<input type="radio" id="q9a2" name="q9" value="wrong9">-1</label>
+
+			<label for="q9a3">			<input type="radio" id="q9a3" name="q9" value="wrong9">1</label>
+
+		</div>
+		
+				<div class="question">
+			<h3>Q: What method can be used to add an element to the end of an array?</h3>
+			<label for="q10a1">			<input type="radio" id="q10a1" name="q10" value="correct10">push()</label>
+
+			<label for="q10a2">			<input type="radio" id="q10a2" name="q10" value="wrong10">pop()</label>
+
+			<label for="q10a3">			<input type="radio" id="q10a3" name="q10" value="wrong10">unshift()</label>
+
+	</div>
+			
+	</form>
+	
+	<!--Quiz buttons-->
+	<div class="buttons">
+		  	<button type="submit" id="submit-btn">Submit Answers</button>
+	  		<button type="button" id="reset-btn">Reset</button>
+	</div>
+
+	
+</section>
+
+<!--Quiz end-->
+
+
+
+
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <!-- code for footer content -->
+  <footer>
+    <div class="footer-content">
+      <p>
+        Developed By <span class="footer-author"><a href="https://www.facebook.com/jemax123">Jomar M. Berdejo</a></span>
+      </p>
+
+      <div class="social-icons">
+        <a href="https://github.com/jomarberdejo"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/a_quilaaa/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/jemax123"><i class="fa-brands fa-facebook"></i></a>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+</body>
+</html>
