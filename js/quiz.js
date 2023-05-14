@@ -8,7 +8,7 @@ let score = parseInt(localStorage.getItem("score")) || 0;
 
 
 window.onload = () => {
-  currentScore.textContent = `Current Score: ${score}`;
+  currentScore.textContent = `Score: ${score}`;
   // Check if the user has already submitted the quiz
   const hasSubmitted = localStorage.getItem("hasSubmitted");
   if (hasSubmitted) {
@@ -97,7 +97,7 @@ submitBtn.addEventListener("click", (event) => {
   // Store the score and submission flag in local storage
   localStorage.setItem("score", score.toString());
   localStorage.setItem("hasSubmitted", "true");
-  currentScore.textContent = `Current Score: ${score}`;
+  currentScore.textContent = `Score: ${score}`;
   submitBtn.disabled = true;
 });
 
@@ -135,7 +135,7 @@ resetBtn.addEventListener("click", (event) => {
     localStorage.removeItem("score"); // clear the stored score from local storage
     localStorage.removeItem("hasSubmitted");
     score = 0;
-    currentScore.textContent = `Current Score: 0`;
+    currentScore.textContent = `Score: 0`;
   }
 });
 
