@@ -30,7 +30,7 @@
 	}
 	
 	
-	h2{
+	.quiz-title{
 	  font-family: Poppins;
 	  font-size: 2rem;
 	  color: #fff;
@@ -86,9 +86,10 @@ input[type="radio"]:checked {
 	.buttons {
 	  display: flex;
 	  justify-content: center;
-	  align-items: center;
-	  gap: 1.5rem;
+	  gap: 1rem;
+	  flex-wrap: wrap;
 	}
+
 	
 	button[type= "submit"]:disabled
 	{
