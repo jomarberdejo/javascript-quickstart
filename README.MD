@@ -112,10 +112,10 @@ You can access a live demo of the site at javascript-quickstart.vercel.app. Fina
 
 
 ## Contact Me
-Finally, if you have any suggestions, problems, or clarifications, you can reach me through:
+If you have any suggestions, problems, or clarifications regarding this site, please don't hesitate to contact me through any of the following channels:
 
-- Email: berdejojomar@gmail.com <i class="fas fa-envelope"></i>
-- Facebook: https://www.facebook.com/jemax123 <i class="fab fa-facebook"></i>
-- Instagram: https://instagram.com/a_quilaaa?igshid=ZGUzMzM3NWJiOQ== <i class="fab fa-instagram"></i>
+- Email: berdejojomar@gmail.com
+- Facebook: https://www.facebook.com/jemax123
+- Instagram: https://www.instagram.com/a_quilaaa/
 
 I'm open to feedback and would love to hear from you!
