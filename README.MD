@@ -35,6 +35,7 @@ Throughout the development of this site, I sought help from various resources to
 
 - Google Classroom materials provided by our teacher
 - Quillbot (for proper grammar and use of sentences)
+- ChatGPT (particularly for the topics definition, examples, and clarification and syntax to use)
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [W3Schools](https://www.w3schools.com/js/default.asp)
 - [JavaScript.info](https://javascript.info/)
