@@ -23,12 +23,21 @@
 	  border-radius: 5px;
 	  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
 	  width: 90%;
-	  padding: 30px 0;
+	  padding: 50px 0;
+	  position: relative;
 	}
 	#quiz-container{
 	  padding: 1rem;
+	  
 	}
 	
+	#current-score{
+	  position: absolute;
+	  top: 0.5rem;
+	  right: 1rem;
+	  font-size: 1rem;
+	  color: gold;
+	}
 	
 	.quiz-title{
 	  font-family: Poppins;
@@ -40,7 +49,7 @@
 	hr{
 	  background: white;
  	  height: 3px;
-   	width: 250px;
+   	width: 60px;
     border-radius:5px;
   	border: none;
   	margin: auto;
