@@ -33,11 +33,11 @@ const quizForm = document.getElementById('quiz-container');
 	   if (score === questions.length) {
 	      Swal.fire({
 	        background: 'gold',
-	        color: '#fff',
+	        
       title: `<p style= "color: #000; font-weight: 500">Perfect! </p>`,
       html: `<p style= "color: #000"> Congratulations! You got ${score} (${scorePercentage}%) out of ${questions.length} questions correct! <br> <br> Result: Pass.</p>`,
       icon: 'success',
-      iconColor: '#fff',
+      iconColor: '#000',
     });
 	    }
 	  else if(score >= 5) {
