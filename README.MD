@@ -16,7 +16,7 @@ Welcome to my JavaScript Quickstart Tutorial Site! This site is designed to prov
 - [Quiz](#quiz)
 - [About](#about)
 
-## Pages
+## HTML Pages
 
 ### Home
 
