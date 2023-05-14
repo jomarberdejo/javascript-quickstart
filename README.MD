@@ -102,7 +102,7 @@ Throughout the development of this site, I sought help from various resources to
 - Google Classroom materials provided by our teacher
 - Quillbot (for proper grammar and use of sentences), and ChatGPT (particularly for topics definitions, examples, and clarification of syntax to use) were all incredibly helpful resources that I utilized throughout the development of this site. These resources enabled me to ensure that the content was both accurate and easy to understand.
 
-MDN Web Docs, W3Schools, and JavaScript.info were also critical resources for me. I referred to these sites extensively for syntax and local storage usage examples for the quiz page. Although I encountered some challenges along the way, with the help of these resources, I was able to overcome them and create a comprehensive tutorial for JavaScript beginners.
+MDN Web Docs were also critical resources for me. I referred to these sites extensively for syntax and local storage usage examples for the quiz page. Although I encountered some challenges along the way, with the help of these resources, I was able to overcome them and create a comprehensive tutorial for JavaScript beginners.
 
 The quiz page on this site is particularly useful for assessing your knowledge of JavaScript after going through the other pages. I made sure to include a range of questions that cover the different topics presented throughout the site. The use of Sweet Alert JS, font awesome icons library, Google fonts, and icon icons makes the quiz page more engaging and interactive.
 
