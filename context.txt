@@ -30,7 +30,7 @@ Note:
    
    - I seek help to ChatGPT, MDN resources, w3school and other resources or documenations for the contents i need to put especially for the examples and definitions of some topics.
    
-   - I also read documentations and find useful resources for references to read about the syntax and on how to use the ChatGPT for more clarifications about the proper way to use local storage in JavaScript that I put in my quiz page.
+   - I also read documentations and find useful resources for references to read about the syntax and on how to use it, and also the ChatGPT for more clarifications about the proper way to use local storage in JavaScript that I put in my quiz page.
   
    - Overall, this site is open for everyone who want to learn JavaScript from scratch, this can be a good starting point for your web development journey, good luck and enjoy!
    
