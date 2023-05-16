@@ -68,15 +68,10 @@ body {
 /*Iframe*/
 
 iframe{
-
   margin: 10px 0;
-
   max-width: 95%;
-
   width: 560px;
-
   height: 315px;
-
   border-radius: 5px;
 
 }
