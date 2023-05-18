@@ -12,6 +12,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
   
+  <!--Prism Library-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>
+  
+  
   <!-- CSS link-->
   <link rel="stylesheet" href="css/index.css">
 
@@ -102,7 +107,7 @@
         <!-- source code -->
         <h3>Here is an example of how to create an array in JavaScript.</h3>
         <div class="source-code">
-          <pre><code>//Declaring an empty array using Array() constructor and array literal notation []
+          <pre><code class="language-javascript">//Declaring an empty array using Array() constructor and array literal notation []
 let emptyArr = new Array();
 let anotherEmptyArr= [];
 
@@ -121,7 +126,7 @@ let mixed = [1, "apple", true, null];
 
         <div class="source-code">
 
-          <pre><code>let numbers = [1, 2, 3, 4, 5];
+          <pre><code class="language-javascript">let numbers = [1, 2, 3, 4, 5];
 
 // changing the value of the second element in the array
 numbers[1] = 10;
@@ -142,7 +147,7 @@ alert(numbers); // output: [1, 10, 3, 4, 5]
         <!-- source code -->
         <h3>Here's an example of push() method in JavaScript.</h3>
         <div class="source-code">
-          <pre><code>let fruits = ['apple', 'banana', 'orange'];
+          <pre><code class="language-javascript">let fruits = ['apple', 'banana', 'orange'];
 // adding a new fruit to the end of the array
 fruits.push('plum');
 
@@ -167,7 +172,7 @@ alert(fruits); // output: ['apple', 'banana', 'orange', 'plum']
         <h3>Here's an example of pop() method in JavaScript.</h3>
 
         <div class="source-code">
-          <pre><code>let fruits = ['apple', 'banana', 'orange'];
+          <pre><code class="language-javascript">let fruits = ['apple', 'banana', 'orange'];
 
 // remove the last fruit from the array
 fruits.pop();
@@ -194,7 +199,7 @@ alert(fruits); // output: ['apple', 'banana']
         <h3>Here's an example of shift() method in JavaScript.</h3>
 
         <div class="source-code">
-          <pre><code>let fruits = ['apple', 'banana', 'orange'];
+          <pre><code class="language-javascript">let fruits = ['apple', 'banana', 'orange'];
 
 // removing the first fruit from the array
 fruits.shift();
@@ -219,7 +224,7 @@ alert(fruits); // output: ['banana', 'orange']
         <h3>Here's an example of unshift() method in JavaScript.</h3>
 
         <div class="source-code">
-          <pre><code>let fruits = ['banana', 'orange'];
+          <pre><code class="language-javascript">let fruits = ['banana', 'orange'];
 
 // adding a new fruit to the beginning of the array
 fruits.unshift('apple');
@@ -244,7 +249,7 @@ alert(fruits); // output: ['apple', 'banana', 'orange']
         <h3>Here's an example of multidimensional array in JavaScript.</h3>
 
         <div class="source-code">
-          <pre><code>const myArray = [
+          <pre><code class="language-javascript">const myArray = [
   [1, 2, 3],
   [4, 5, 6],
   [7, 8, 9]

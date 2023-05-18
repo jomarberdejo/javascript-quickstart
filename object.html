@@ -12,6 +12,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
 
+  <!--Prism Library-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>
+  
   <!-- CSS link-->
   <link rel="stylesheet" href="css/index.css">
 
@@ -101,7 +105,7 @@
 
         <h3>In JavaScript, objects can be created using object literals, which are enclosed in curly braces `{}`, like this</h3>
         <div class="source-code">
-          <pre><code>// JavaScript Object {} code example
+          <pre><code class="language-javascript">// JavaScript Object {} code example
 const person = {
   name: 'John',
   age: 30,
@@ -123,7 +127,7 @@ const person = {
         <h3>Objects can also be created using the `Object()` constructor, like this:</h3>
 
         <div class="source-code">
-          <pre><code>// JavaScript new Object() code example
+          <pre><code class="language-javascript">// JavaScript new Object() code example
 const person = new Object();
 person.name = 'John';
 person.age = 30;
@@ -141,7 +145,7 @@ person.address = {
         <h3>Example for accessing values of an object</h3>
 
         <div class="source-code">
-          <pre><code>const person = {
+          <pre><code class="language-javascript">const person = {
   name: 'John',
   age: 30,
   address: {
@@ -167,7 +171,7 @@ alert(person['age']); // Output: 30
                 <h3>Example of modifying values of an object</h3>
 
         <div class="source-code">
-          <pre><code>const person = {
+          <pre><code class="language-javascript">const person = {
   name: 'John',
   age: 30,
   address: {
