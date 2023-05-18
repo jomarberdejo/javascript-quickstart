@@ -82,7 +82,6 @@ iframe{
 }
 
 .source-code pre {
-  background-color: #292931;
   padding: 10px;
   border-radius: 5px;
   font-size: 1rem;
@@ -110,7 +109,7 @@ iframe{
 .source-code pre code {
   font-family: Courier New;
  
-  color: #e1cfd9;
+  
 }
 
 .main .main-content .code-example {
