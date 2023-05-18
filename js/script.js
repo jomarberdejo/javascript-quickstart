@@ -1,3 +1,7 @@
+ 
+//Highlight code
+Prism.highlightAll();
+
 // js pop up messages
 const displayAlert = () => {
   alert("Hello, World!"); // Output: Hello, World!
