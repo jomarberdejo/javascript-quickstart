@@ -1,9 +1,3 @@
-<div id="video-container">
-  <iframe id="youtube-video" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
-</div>
-```
-
-```javascript
 window.addEventListener('DOMContentLoaded', function() {
   var videoContainer = document.getElementById('video-container');
   var youtubeVideo = document.getElementById('youtube-video');
