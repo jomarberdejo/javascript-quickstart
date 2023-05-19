@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Quickstart</title>
+  <link rel="icon" href="js-icon.png">
+  <!-- Fonts link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  
+  <!-- CSS link-->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/project.css">
+
+  <!-- JS link-->
+  <script defer src="js/toggle.js"></script>
+  <script defer src="js/project.js"></script>
+  
+
+  
+  <!--Icons Link--> 
+  <script src="https://kit.fontawesome.com/ca7101e501.js" crossorigin="anonymous"></script>
+
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+  <script
+    type="nomodule"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+  </script>
+
+</head>
+<body>
+ <div class="loading-spinner-container">
+
+  <div class="loading-spinner"></div>
+
+</div>
+  <header>
+
+    <button class="sidebar-toggle">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+    <h1>JavaScript Quickstart</h1>
+  </header>
+  <!-- code for left-sidebar -->
+
+  <section class="section-container">
+
+    <div class="sidebar">
+
+      <nav>
+        <div class="logo">
+          <i class="fa-brands fa-square-js" style="color: #ffff00;"></i>
+        </div>
+        <ul>
+          <li><a href="index.html
+" title="JS Home">JS Home</a></li>
+          <li><a href="variables.html" title="JS Intro">JS Intro</a></li>
+          <li><a href="popup.html" title="JS Pop- Up Boxes">JS Pop Up</a></li>
+          <li><a href="arithmetic.html" title="JS Arithmetic Operators">JS Operators</a></li>
+          <li><a href="conditionalstatement.html" title="JS Conditional Statements">JS Statements</a></li>
+          <li><a href="loops.html" title="JS Loops">JS Loops</a></li>
+          <li><a href="array.html" title="Array">JS Array</a></li>
+         <li><a href="object.html" title="About">JS Object</a></li>
+         <li><a href="quiz.html" title="Quiz">Quiz</a></li>
+         <li><a href="project.html" title="Projects Showcase" class="active">Projects</a></li>
+          <li><a href="about.html" title="About">About</a></li>
+          
+
+
+        </ul>
+
+
+      </nav>
+    </div>
+
+        
+        <!--Content start-->
+ 
+   <div class="projects-showcase">
+    <h2>Projects Showcase</h2>
+ 
+  <section class="filters">
+    <label for="complexity-filter">Filter by Complexity:</label>
+    <select id="complexity-filter">
+      <option value="all">All</option>
+      <option value="beginner">Beginner</option>
+      <option value="intermediate">Intermediate</option>
+      <option value="advanced">Advanced</option>
+    </select>
+  </section>
+  <div class="projects">
+    
+    <!-----------Project 1--------->
+    
+    <div class="project-item" data-complexity="intermediate">
+      <img src="projects-img/quiz.png" alt="Project 1">
+      <h3>Quiz Game</h3>
+      <p>A simple quiz game using HTML, CSS, and JS involves creating a webpage where users can answer questions and receive feedback on their responses.</p>
+      <a href="https://jomarberdejo.github.io/quizgame/" target="_blank">Visit Live Demo</a>
+    </div>
+    
+   <!----------Project 2 ----------->
+    <div class="project-item" data-complexity="beginner">
+      <img src="projects-img/gallery.png" alt="Project 2">
+      
+      <h3>Image Gallery</h3>
+      <p>This project displays different images in gallery format. I only use HTML and CSS to design and build this simple yet attractive project.</p>
+      <a href="https://jomarberdejo.github.io/gallery/">Visit Live Demo</a>
+    </div>
+    
+   <!---------Project 3--------->
+    <div class="project-item" data-complexity="advanced">
+      <img src="projects-img/profile.png" alt="Project 3">
+      
+      <h3>Personal Portfolio</h3>
+      <p>Recent project made using HTML, CSS, and JavaScript. It is currently in progress, and I'm constantly updating it with new projects and information.</p>
+      <a href="https://jomarberdejo.github.io/profile/" target="_blank">Visit Live Demo</a>
+    </div>
+    
+    
+    <!----------Project 4---------->
+    <div class="project-item" data-complexity="beginner">
+      <img src="projects-img/basic-calculator.png" alt="Project 4">
+    
+      <h3>Simple Calculator</h3>
+      <p>This JavaScript project is a basic calculator that performs arithmetic operations such as addition, subtraction, multiplication, and division.</p>
+      <a href="https://jomarberdejo.github.io/simplecalculator" target="_blank">Visit Live Demo</a>
+    </div>
+    
+    <!----------Project 5---------->
+    <div class="project-item" data-complexity="beginner">
+      <img src="projects-img/converter.png" alt="Project 5">
+    
+      <h3>Temperature Converter</h3>
+      <p>This project made using HTML, CSS and JavaScript. It allows users to convert temperatures between Celsius, Fahrenheit, and Kelvin.</p>
+      <a href="https://jomarberdejo.github.io/basictempconverter/" target="_blank">Visit Live Demo</a>
+    </div>
+    
+    <!-----------Project 6-------->
+    <div class="project-item" data-complexity="beginner">
+      <img src="projects-img/todo.png" alt="Project 6">
+    
+      <h3>Basic Todo List</h3>
+      <p>This project demonstrate on how useful the array methods in JavaScript. It displays the pop(), push(), unshift(), and shift() methods.</p>
+      <a href="https://array-methods-jomar.vercel.app" target="_blank">Visit Live Demo</a>
+    </div>
+    
+    <!---------Project 7---------->
+   <div class="project-item" data-complexity="intermediate">
+      <img src="projects-img/brand-of-cars.png" alt="Project 7">
+      
+    
+      <h3>Brand of Cars (2D Array)</h3>
+      <p>This project showcases the usage of four array methods (push, pop, unshift, and shift) but this time in a multidimensional array. </p>
+      <a href="https://basic-array-method.vercel.app" target="_blank">Visit Live Demo</a>
+    </div>
+    
+    <!---------Project 8--------->
+    <div class="project-item" data-complexity="advanced">
+      <img src="projects-img/js-quickstart.png" alt="Project 2">
+      
+      <h3>JavaScript Quickstart (Tutorial)</h3>
+      <p>JavaScript Quickstart is a comprehensive tutorial and guide designed to help learners quickly get started with JavaScript programming.</p>
+      <a href="https://javascript-quickstart.vercel.app" target="_blank">Visit Live Demo</a>
+    </div>
+    
+    <!-------Project 9--------->
+    <!--
+    <div class="project-item" data-complexity="advanced">
+      <img src="images/project3.png" alt="Project 3">
+    
+      <h3>Bookshelf Apps (Basic CRUD)</h3>
+      <p>A brief description of the project.</p>
+      <a href="demo/project3/index.html" target="_blank">Visit Live Demo</a>
+    </div>
+    -->
+    
+
+  </div>
+
+  </div>
+  </section>
+
+  <!-- code for footer content -->
+  <footer>
+    <div class="footer-content">
+      <p>
+        Developed By <span class="footer-author"><a href="https://www.facebook.com/jemax123">Jomar M. Berdejo</a></span>
+      </p>
+
+      <div class="social-icons">
+        <a href="https://github.com/jomarberdejo"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/a_quilaaa/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/jemax123"><i class="fa-brands fa-facebook"></i></a>
+
+      </div>
+
+    </div>
+    </footer>
+
+
+
+    </body>
+  </html>
