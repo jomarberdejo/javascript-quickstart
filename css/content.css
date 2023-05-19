@@ -33,6 +33,7 @@ body {
   max-width: 100%;
   margin-top: 70px;
   margin-left: 180px;
+  min-height: 100dvh;
 }
 
 .main .main-content {
