@@ -114,7 +114,7 @@ Throughout the development of this site, I sought help from various resources to
 - W3Schools (for additional JavaScript examples and references)
 - MDN Web Docs were also critical resources for me. I referred to these sites extensively for syntax and local storage usage examples for the quiz page. Although I encountered some challenges along the way, with the help of these resources, I was able to overcome them and create a comprehensive tutorial for JavaScript beginners.
 
-The quiz page on this site is particularly useful for assessing your knowledge of JavaScript after going through the other pages. I made sure to include a range of questions that cover the different topics presented throughout the site. The use of Sweet Alert JS, font awesome icons library, Google fonts, icon icons, and Prism.js for syntax highlighting makes the quiz page more engaging and interactive.
+The quiz page on this site is particularly useful for assessing your knowledge of JavaScript after going through the other pages. I made sure to include a range of questions that cover the different topics presented throughout the site. The use of Sweet Alert JS, font awesome icons library, Google fonts, icon icons, and Prism.js for syntax highlighting makes all page more engaging and interactive.
 
 I designed this site to be open to everyone who wants to learn JavaScript from scratch. I hope it serves as a useful starting point for your web development journey. Please feel free to provide feedback on the site's content and design, as I am always looking for ways to improve it.
 
