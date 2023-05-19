@@ -71,9 +71,11 @@ body {
 .main .main-content .source-code {
   max-width: 335px;
   margin: auto;
+  
 }
 
 .source-code pre {
+
   padding: 10px;
   border-radius: 5px;
   font-size: 1rem;

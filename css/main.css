@@ -98,10 +98,12 @@ h1{
      background-image: linear-gradient(rgb(34, 47, 57),rgba(49, 55, 82, 1));
      background-color: #333;
      overflow-y: scroll;
+     scroll-behavior: smooth;
 }
 
 .sidebar::-webkit-scrollbar{
   display: none;
+  
 }
 
 .sidebar nav .logo{
