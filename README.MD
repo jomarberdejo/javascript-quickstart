@@ -101,7 +101,7 @@ Check out the live demo of this site at [https://javascript-quickstart.vercel.ap
 
 Here's a screenshot of the Home page:
 
-![Screenshot of Home page](https://javascript-quickstart.vercel.app/js-quickstart-preview.png)
+![Screenshot of Home page](https://javascript-quickstart.vercel.app/projects-img/js-quickstart.png)
 
 ## Acknowledgments
 
