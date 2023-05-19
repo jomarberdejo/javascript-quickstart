@@ -1,4 +1,3 @@
- 
 //Highlight code
 Prism.highlightAll();
 
