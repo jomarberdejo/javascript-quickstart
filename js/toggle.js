@@ -1,4 +1,4 @@
-/*Burger menu for sidebar*/
+/*---------Burger menu for sidebar------*/
 const sidebar = document.querySelector('.sidebar');
 
 document.addEventListener('click', event => {
@@ -13,7 +13,7 @@ document.querySelector('.sidebar-toggle').addEventListener('click', () => {
 
 
 
-//Code for about-contents
+//-----------Code for about-contents
 const aboutContentTitle = document.querySelectorAll(".about-content-title");
 
 aboutContentTitle.forEach((title) => {
@@ -22,7 +22,7 @@ aboutContentTitle.forEach((title) => {
   });
 });
 
-/*Loading*/
+/*-----------Loading---------*/
 document.onreadystatechange = function () {
 
   if (document.readyState !== "complete") {
@@ -63,3 +63,15 @@ document.addEventListener('DOMContentLoaded', () => {
   spinnerContainer.style.display = 'none';
 
 });
+
+//-----------JS CHEAT SHEET 
+function confirmBtn(event) {
+  const dl= document.getElementById('dl-sheet');
+  if (confirm("Are you sure you want to download this JS cheat sheet?") === true){
+    return true;
+  }
+  else {
+    event.preventDefault();
+    alert('Download Cancelled!');
+  }
+}
