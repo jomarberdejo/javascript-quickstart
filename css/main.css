@@ -168,7 +168,7 @@ li a:hover::before , .about-content-title:hover::before{
 
 
 .sidebar nav ul li .active{
-  color: #FFEA20;
+  color: gold;
 }
 
 a{

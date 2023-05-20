@@ -17,6 +17,7 @@
 }
 html {
   scroll-behavior: smooth;
+  color-scheme: dark;
 }
 
 body {
@@ -48,6 +49,12 @@ body {
   /*color: #f3deba;*/
   font-weight: 500;
 }
+
+.topic-title{
+  color: gold;
+}
+
+
 .main .main-content p {
   font-size: 1.3rem;
   margin-left: 50px;
@@ -73,6 +80,12 @@ body {
   margin: auto;
   
 }
+/*----Getting started snippet syntax*/
+.start-snippet{
+  max-width: max-content !important;
+  padding: 10px;
+}
+
 
 .source-code pre {
 
