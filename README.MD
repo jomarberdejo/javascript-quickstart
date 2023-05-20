@@ -5,6 +5,7 @@ Welcome to my JavaScript Quickstart Tutorial Site! This site is designed to prov
 ## Table of Contents
 
 - [Home](#home)
+- [Getting Started](#getting-started)
 - [Variables](#variables)
 - [Data Types](#data-types)
 - [Popup Message Box](#popup-message-box)
@@ -22,6 +23,9 @@ Welcome to my JavaScript Quickstart Tutorial Site! This site is designed to prov
 ### Home
 
 The Home page provides an introduction to JavaScript and what you can accomplish with it. You'll learn about the basics of JavaScript, including what it is, what it can do, and how to use it.
+
+### Getting Started
+The Getting Started page provides a step by step guide on how to install IDE in order to follow along coding and start their first code.
 
 ### Variables
 
@@ -108,8 +112,9 @@ Here's a screenshot of the Home page:
 Throughout the development of this site, I sought help from various resources to ensure that the content is accurate and easy to understand. These include:
 
 
-- Google Classroom materials provided by our teacher
+- Google Classroom materials provided by our IT instructor.
 - Quillbot to ensure readability and proper usage of grammars and sentences thus to help them to easy to understand about the concept.
+- ChatGPT were also a good reference for me. I used this as my guide to create this comprehensive tutorial site, especially for the examples, descriptions since I am not good in english, and most importantly for the syntax that is unfamiliar to me and seek for in depth clarification with it so that I know how the code works and gain new knowledge that I can use in the future projects.
 - JavaScript.info (for in-depth JavaScript documentation and tutorials)
 - W3Schools (for additional JavaScript examples and references)
 - MDN Web Docs were also critical resources for me. I referred to these sites extensively for syntax and local storage usage examples for the quiz page. Although I encountered some challenges along the way, with the help of these resources, I was able to overcome them and create a comprehensive tutorial for JavaScript beginners.
