@@ -65,16 +65,24 @@ h2{
   width: 400px;
   padding: 20px;
   margin: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #373727;
   border-radius: 5px;
-  background-color: #222;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #181815;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  position: relative;
 }
 
 .project-item img {
   width: 100%;
   height: 200px;
   border-radius: 5px;
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+
+.project-item img:hover{
+  transform: translateY(-10px);
 }
 
 .project-item h3 {
@@ -97,13 +105,42 @@ h2{
   color: #4fc2fa;
   text-decoration: none;
   border-radius: 5px;
-
+  border: 1px solid gold;
 }
-
 
 .project-item a:hover {
   background-color: #555;
 }
+
+    .project-item .visit-demo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.83);
+      color: #fff;
+    }
+
+    .project-item:hover .visit-demo {
+      opacity: 1;
+    }
+
+    .project-item .visit-demo {
+      transform: translateY(100%);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .project-item:hover .visit-demo {
+      transform: translateY(0);
+      
+    }
+
+
 
 @media (max-width: 600px) {
   .project-item {
