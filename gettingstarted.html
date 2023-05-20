@@ -4,16 +4,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Learn how to quickly get started with JavaScript with our comprehensive guide.">
-  <meta name="keywords" content="javascript, quickstart, tutorial, guide, quiz">
-  <meta name="author" content="Jomar M. Berdejo">
-  <title>JavaScript Quickstart</title>
+  <title>Getting Started</title>
   <link rel="icon" href="js-icon.png">
   <!-- Fonts link-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
   
+    <!--Prism Library-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>
+ 
   <!-- CSS link-->
   <link rel="stylesheet" href="css/index.css">
 
@@ -45,7 +46,7 @@
     <button class="sidebar-toggle">
       <ion-icon class="bars" name="menu-outline"></ion-icon>
     </button>
-    <h1>JavaScript Quickstart</h1>
+    <h1>Getting Started</h1>
   </header>
   <!-- code for left-sidebar -->
 
@@ -58,10 +59,9 @@
           <i class="fa-brands fa-square-js" style="color: #ffff00;"></i>
         </div>
         <ul>
-          <li><a href="index.html
-" title="JS Home" class="active">JS Home</a></li>
-          <li><a href="gettingstarted.html" title="Getting Started">Getting Started</a></li>
+          <li><a href="index.html" title="JS Home">JS Home</a></li>
           <li><a href="variables.html" title="JS Intro">JS Intro</a></li>
+         <li><a href="gettingstarted.html" title="Getting Started" class="active">Getting Started</a></li>
           <li><a href="popup.html" title="JS Pop- Up Boxes">JS Pop Up</a></li>
           <li><a href="arithmetic.html" title="JS Arithmetic Operators">JS Operators</a></li>
           <li><a href="conditionalstatement.html" title="JS Conditional Statements">JS Statements</a></li>
@@ -101,41 +101,49 @@
         </dialog>
         
         <!--Content start-->
-        <h3>Why you should start learning JavaScript?</h3>
-        <p>
-          The best thing is that you can do a web development, mobile app development , and even game development by learning just one programming language which is almost impossible for any other programming language and this versatility and flexibility is also the main reasons to learn JavaScript programming language in 2023.
-        </p>
+       <section class="getting-started">
+  <h3 class="topic-title">Getting Started</h3>
+  <p>To start coding in JavaScript, you'll need to set up a development environment. Follow these steps:</p>
 
-        <h3>What does JavaScript can do?</h3>
+  <h3>Step 1: Install a Text Editor</h3>
+  <p>Choose a text editor or integrated development environment (IDE) that suits your preferences. Here are a few popular options:</p>
+   <br>
+    <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></li>
+    <li><a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a></li>
+    <li><a href="https://atom.io/" target="_blank">Atom</a></li>
+  <br>
+  <p>Download and install the text editor of your choice from their official websites.</p>
 
-        <p>
-          JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.
-        </p>
+  <h3>Step 2: Set Up a Web Browser</h3>
+  <p>Any modern web browser like Google Chrome, Mozilla Firefox, or Microsoft Edge can be used for JavaScript development. If you don't have one, download and install a browser of your choice.</p>
 
+  <h3>Step 3: Create a Project Directory</h3>
+  <p>Create a folder on your computer to organize your JavaScript projects. You can name it anything you like. For example, create a folder named "MyJSProjects" on your desktop.</p>
 
+  <h3>Step 4: Create an HTML File</h3>
+  <p>Open your text editor and create a new file with a ".html" extension. Save it inside your project directory. This file will be the entry point for your JavaScript code.</p>
+  <div class="source-code start-snippet">
+  <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;My JavaScript Project&lt;/title&gt;
+  &lt;script src="script.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;My JavaScript Project&lt;/h1&gt;
+  &lt;!-- Add your HTML content here --&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div>
 
-        <h3>What are the topics that this pages will be covered?</h3>
-
-        <p>
-          The pages will cover the basic topics in JavaScript: variables and data types, pop-up messages (specifically, alert, prompt, and confirm), control structures and loops, and arithmetic operators. <br> <br> The pop-up messages will explain how to use JavaScript to create pop-up messages such as prompt users for input or display information. <br> <br> The other pages will cover about conditional statements and loops,we will discuss how to use conditional statements (if/else statements) and  loops (for, while, and do/while) to control the flow of a JavaScript program. <br> <br>We will also cover about arithmetic operators. We will provide some examples on how to perform mathematical operations in JavaScript, including addition, subtraction, multiplication, division, and modulo. The page will also includes array and objects.<br> <br>
-          Overall, this site will discuss about the basic fundamentals in JavaScript.
-        </p>
-
-
-        <h3>Here are some examples of what JavaScript can do to enhance your website, which you can visit:</h3>
-
-        <li><a href="https://jomarberdejo.github.io/simplecalculator/">jomarberdejo/simplecalculator</a></li>
-        <li><a href="https://jomarberdejo.github.io/basictempconverter/">jomarberdejo/basictempconverter/</a></li>
-        <li><a href="https://jomarberdejo.github.io/quizgame/">jomarberdejo/quizgame/</a></li>
-        <li><a href="https://jomarberdejo.github.io/profile/">jomarberdejo/profile</a></li>
+  <h3>Step 5: Create a JavaScript File</h3>
+  <p>Create a new file inside your project directory and name it "script.js". This file will contain your JavaScript code. Link it to your HTML file by adding the `&lt;script&gt;` tag, as shown in the previous code snippet.</p>
+  
+  <h3>Step 6: Start Coding</h3>
+  <p>You're now ready to start coding in JavaScript! Open your HTML and JavaScript files in your text editor and begin writing your code.</p>
+</section>
         
-       <h3>Check this out to get the overview of overall content.</h3>
-       <li><a href="https://github.com/jomarberdejo/javascript-quickstart#my-javascript-quickstart-tutorial-site">Visit README.MD file</a></li>
-       
-       <h3>Download JavaScript cheat sheet.</h3>
-       <li><a id="dl-sheet" href= "JavaScript.pdf" download title="Click to download" onclick="confirmBtn(event)">Click to Download</a></li>
 
-        <h3>To enhace your learning, you can visit this site to practice.</h3>
+        <h3>Also if you are interested, you may also want to consider using this codepen to start coding.</h3>
        
         
 
@@ -173,3 +181,4 @@
 
     </body>
   </html>
+  
