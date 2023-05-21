@@ -87,7 +87,7 @@ body {
 /*Example codes start here*/
 .main .main-content .source-code {
   max-width: 335px;
-  width: 95%;
+  width: 85%;
   margin: auto;
 }
 /*----Getting started snippet syntax*/
@@ -98,7 +98,8 @@ body {
 
 
 .source-code pre {
-  width: 450px;
+  max-width: 440px;
+  width: 100%;
   padding: 10px;
   border-radius: 5px;
   font-size: 1rem;
@@ -130,8 +131,7 @@ body {
 }
 
 .main .main-content .code-example {
-  width: auto;
-  margin: auto;
+  text-align: center;
 }
 
 .code-example .code-example-button {
@@ -146,6 +146,7 @@ body {
   cursor: pointer;
   letter-spacing: 1.3px;
   margin: 1.2rem;
+
 }
 
 .code-example .code-example-button:hover {
@@ -261,10 +262,10 @@ button[type="submit"]:hover {
   }
 
   .main .main-content {
-    display: flex;
-    flex-direction: column;
+ 
     padding: 0px 10px;
   }
+  
   .main .main-content h3 {
     margin: 30px 0 20px 0;
   }
