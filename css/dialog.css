@@ -61,8 +61,7 @@ dialog label{
   width: 90%;
   font-size: 1.2rem;
   margin: auto;
-  text-align: center;
-  font-family: Lato;
+  font-family: "Helvetica";
 }
 
 dialog .image-dialog {
@@ -83,6 +82,6 @@ dialog .image-dialog img {
 }
 .fa-xmark {
   font-size: 45px;
-  color:#4fc2fa;
+  color:#fff;
   cursor: pointer;
 }
