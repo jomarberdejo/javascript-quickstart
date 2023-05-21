@@ -37,8 +37,8 @@ body {
 }
 
 .main .main-content {
-  width: min(85ch, 100% - 1.5rem);
-  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
   padding: 0px 100px;
 }
 
@@ -48,6 +48,7 @@ body {
   /*color: #f3deba;*/
   font-weight: 400;
   color: #fefefe;
+
 }
 
 .main .main-content .topic-title{
@@ -262,8 +263,9 @@ button[type="submit"]:hover {
   }
 
   .main .main-content {
- 
-    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 4rem;
   }
   
   .main .main-content h3 {
@@ -292,6 +294,11 @@ button[type="submit"]:hover {
     margin-top: 70px;
     margin-left: 0;
   }
+  
+  .main .main-content{
+    padding: 10px 2.5rem;
+  }
+  
 
   .main .main-content h3 {
     margin: 25px 0px 15px 0px;
@@ -332,7 +339,10 @@ button[type="submit"]:hover {
   }
 
   .main .main-content {
-    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 1.1rem;
+  
   }
   .main .main-content h3 {
     font-size: 1.3rem;
