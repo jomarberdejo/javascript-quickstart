@@ -22,8 +22,8 @@ html {
 
 body {
   font-family: "IBM Plex Sans", sans-serif;
-  line-height: 1.6;
-  letter-spacing: 1.4px;
+  line-height: 1.5;
+  letter-spacing: 1px;
   font-size: 16px;
   background-color: var(--background-color-dark);
   color: var(--text-color-dark);
@@ -44,21 +44,27 @@ body {
 }
 
 .main .main-content h3 {
-  font-size: 1.6rem;
-  margin: 30px 0px;
+  font-size: 1.5rem;
+  margin: 30px 0px 20px 0px;
   /*color: #f3deba;*/
-  font-weight: 500;
+  font-weight: 400;
+  color: #ffffff;
 }
 
-.topic-title{
+.main .main-content .topic-title{
   color: gold;
+  font-weight: 500;
+  
 }
-
+.main .main-content .topic-title, .main .main-content .home-title{
+  margin: 10px 0px 20px 0px ;
+}
 
 .main .main-content p {
   font-size: 1.3rem;
   margin-left: 50px;
-  color: #dfdfe3;
+  color: #f5f5f4;
+  font-weight: 400;
 }
 
 .main .main-content li {
@@ -70,7 +76,7 @@ body {
 .main .main-content li a {
   font-size: 1.3rem;
   color:/*#FFA50*/ #4fc2fa;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 
@@ -88,7 +94,7 @@ body {
 
 
 .source-code pre {
-
+  
   padding: 10px;
   border-radius: 5px;
   font-size: 1rem;
@@ -147,13 +153,13 @@ body {
   font-size: 2rem;
   margin: 15px 0px;
   color: gold;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 /*style for about page*/
 .about-content-title {
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 400;
   position: relative;
 }
 
@@ -256,7 +262,7 @@ button[type="submit"]:hover {
     padding: 0px 10px;
   }
   .main .main-content h3 {
-    margin: 10px 0;
+    margin: 30px 0 20px 0;
   }
   .main .main-content p {
     padding-left: 100px;
@@ -283,7 +289,7 @@ button[type="submit"]:hover {
   }
 
   .main .main-content h3 {
-    margin: 20px 5px;
+    margin: 25px 5px 15px 5px;
   }
   .main .main-content p {
     margin-left: 1px;
@@ -324,11 +330,11 @@ button[type="submit"]:hover {
     padding: 10px 5px;
   }
   .main .main-content h3 {
-    font-size: 1.4rem;
-    margin: 20px 3px;
-    line-height: 1.5;
-    letter-spacing: 1.3px;
+    font-size: 1.3rem;
+    
+    font-weight: 400;
   }
+
   .main .main-content p,
   .main .main-content li {
     padding-left: 25px;
@@ -341,8 +347,7 @@ button[type="submit"]:hover {
   .main .main-content p,
   .main .main-content li a {
     font-size: 1rem;
-    letter-spacing: 1.3px;
-    line-height: 1.5;
+    font-weight: 400;
   }
 
   .code-example-plusOperator {

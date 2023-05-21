@@ -113,6 +113,7 @@ h2{
 
 .project-item:hover a{
   animation: showLink 0.2s ease-in-out 0.3s forwards;
+  
 }
 @keyframes showLink {
   0% {
