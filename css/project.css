@@ -24,7 +24,7 @@ body {
   line-height: 1.6;
   letter-spacing: normal;
   font-size: 16px;
-  background-color: var(--background-color-dark);
+  background-color: #161c23;
   color: var(--text-color-dark);
 }
 

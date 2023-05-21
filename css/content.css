@@ -24,7 +24,7 @@ body {
   line-height: 1.6;
   letter-spacing: normal;
   font-size: 16px;
-  background-color: var(--background-color-dark);
+  background-color: #161c23;
   color: var(--text-color-dark);
 }
 
@@ -37,18 +37,10 @@ body {
 }
 
 .main .main-content {
-  display: flex;
-  flex-direction: column;
+  width: min(85ch, 100% - 1.5rem);
+  margin-inline: auto;
   padding: 0px 100px;
 }
-
-/*Optional*/
-/*
-width: min(85ch, 100% - 1rem);
-
-      margin-inline: auto;
-*/
-
 
 .main .main-content h3 {
   font-size: 1.5rem;
