@@ -40,7 +40,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0px 100px;
-  width: min(120ch, 100% - 1.5rem);
+  width: min(98ch, 100% - 1rem);
    margin-inline: auto;
 }
 
@@ -50,8 +50,7 @@ body {
   /*color: #f3deba;*/
   font-weight: 400;
   color: #fefefe;
-  width: min(85ch, 100% - 1.5rem);
-  margin-inline: auto;
+  
 }
 
 .main .main-content .topic-title{
@@ -60,7 +59,7 @@ body {
   
 }
 .main .main-content .topic-title, .main .main-content .home-title{
-  margin: 10px 0px 20px 0px ;
+  margin: 20px 0px 20px 0px ;
 }
 
 .main .main-content p {
