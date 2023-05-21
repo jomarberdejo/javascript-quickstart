@@ -40,6 +40,8 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0px 100px;
+  width: min(120ch, 100% - 1.5rem);
+   margin-inline: auto;
 }
 
 .main .main-content h3 {
@@ -48,7 +50,8 @@ body {
   /*color: #f3deba;*/
   font-weight: 400;
   color: #fefefe;
-
+  width: min(85ch, 100% - 1.5rem);
+  margin-inline: auto;
 }
 
 .main .main-content .topic-title{
@@ -265,7 +268,7 @@ button[type="submit"]:hover {
   .main .main-content {
     display: flex;
     flex-direction: column;
-    padding: 0px 4rem;
+    padding: 0px 10px;
   }
   
   .main .main-content h3 {
@@ -294,11 +297,6 @@ button[type="submit"]:hover {
     margin-top: 70px;
     margin-left: 0;
   }
-  
-  .main .main-content{
-    padding: 10px 2.5rem;
-  }
-  
 
   .main .main-content h3 {
     margin: 25px 0px 15px 0px;
@@ -341,8 +339,7 @@ button[type="submit"]:hover {
   .main .main-content {
     display: flex;
     flex-direction: column;
-    padding: 10px 1.1rem;
-  
+    padding: 10px 5px;
   }
   .main .main-content h3 {
     font-size: 1.3rem;
