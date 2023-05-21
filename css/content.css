@@ -40,8 +40,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0px 100px;
-  width: min(98ch, 100% - 1rem);
-   margin-inline: auto;
+
 }
 
 .main .main-content h3 {
@@ -59,7 +58,7 @@ body {
   
 }
 .main .main-content .topic-title, .main .main-content .home-title{
-  margin: 20px 0px 20px 0px ;
+  margin: 13px 0px 20px 0px ;
 }
 
 .main .main-content p {
