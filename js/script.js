@@ -127,6 +127,23 @@ const doWhileLoopEx = () => {
 
 /*Loops ends here*/
 
+/*Functions start*/
+function regFuncEx() {
+  function sayHello(name) {
+  alert("Hello, " + name + "!");
+  }
+  sayHello("John"); // Output: Hello, John!
+}
+
+function arrowFuncEx() {
+  const multiply = (a, b) => a * b;
+  alert(multiply(2, 3)); // Output: 6
+}
+
+
+/*Functions ends*/
+
+
 /*Array starts here*/
  const pushEx= ()=> {
    let fruits = ['apple', 'banana', 'orange'];
@@ -211,3 +228,4 @@ const modifyObjectEx = ()=> {
   alert(person.name); // Output: 'Jane'
   alert(person.age); // Output: 35
 }
+
