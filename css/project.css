@@ -35,7 +35,7 @@ body {
 }
 
 h2{
-  margin-top: 80px;
+  margin-top: 90px;
   text-align: center;
   color: gold;
 }
@@ -176,7 +176,7 @@ h2{
 @media (min-width: 1241px) {
   .projects-showcase {
     margin-left: 260px;
-    margin-top: 80px;
+    margin-top: 90px;
   }
 }
 
