@@ -204,9 +204,14 @@ footer .footer-content{
   gap: 1rem;
 }
 
+.social-icons a:hover {
+    color: #ffea20;
+  }
+
 .social-icons i{
   cursor: pointer;
 }
+
 
 /*Style for max-width 1240px starts */
 
