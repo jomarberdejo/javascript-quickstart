@@ -252,7 +252,11 @@ button[type="submit"]:hover {
   background-color: #0062cc;
 }
 
-
+ .video-container iframe{
+       width: 99%;
+       border-radius: 3px;
+       max-width: 450px;
+     }
 /*Style for max-width 1240px starts */
 /*content*/
 @media (max-width: 1240px) {
