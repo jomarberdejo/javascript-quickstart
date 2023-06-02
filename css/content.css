@@ -255,7 +255,9 @@ button[type="submit"]:hover {
  .video-container iframe{
        width: 99%;
        border-radius: 3px;
-       max-width: 450px;
+       max-width: 599px;
+       max-height: 599px;
+       height: auto;
        border: 3px solid #121212;
      }
 /*Style for max-width 1240px starts */
