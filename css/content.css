@@ -256,8 +256,8 @@ button[type="submit"]:hover {
        width: 99%;
        border-radius: 3px;
        max-width: 599px;
-       max-height: 599px;
-       height: auto;
+       height: 599px;
+    
        border: 3px solid #121212;
      }
 /*Style for max-width 1240px starts */
