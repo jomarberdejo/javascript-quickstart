@@ -114,7 +114,7 @@ Throughout the development of this site, I sought help from various resources to
 
 - Google Classroom materials provided by our IT instructor.
 - Quillbot to ensure readability and proper usage of grammars and sentences thus to help them to easy to understand about the concept.
-- ChatGPT were also a good reference for me. I used this as my guide to create this comprehensive tutorial site, especially for the examples, descriptions since I am not good in english, and most importantly for the syntax that is unfamiliar to me and seek for in depth clarification with it so that I know how the code works and gain new knowledge that I can use in the future projects.
+
 - JavaScript.info (for in-depth JavaScript documentation and tutorials)
 - W3Schools (for additional JavaScript examples and references)
 - MDN Web Docs were also critical resources for me. I referred to these sites extensively for syntax and local storage usage examples for the quiz page. Although I encountered some challenges along the way, with the help of these resources, I was able to overcome them and create a comprehensive tutorial for JavaScript beginners.
