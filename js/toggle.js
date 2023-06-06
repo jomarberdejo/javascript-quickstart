@@ -77,21 +77,3 @@ function confirmBtn(event) {
 }
 
 
-/*Video Checker*/
-  const videoElement = document.getElementById('youtube-video');
-
-  if (videoElement && videoElement.src.includes('youtube.com')) {
-
-    videoElement.style.display = 'block'; // Show the video
-
-  } else {
-
-  
-
-    const alternativeContent = document.createElement('p');
-
-    alternativeContent.textContent = "The youtube either unsupported or blocked, the video cannot be played.";
-
-    document.querySelector('.video-container').appendChild(alternativeContent);
-
-  }
