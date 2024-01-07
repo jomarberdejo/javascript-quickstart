@@ -55,7 +55,7 @@ submitBtn.addEventListener("click", (event) => {
       selectedAnswer.value === "correct7" ||
       selectedAnswer.value === "correct8" ||
       selectedAnswer.value === "correct9" ||
-      selectedAnswer.value === "correct10"; // Example correct answers
+      selectedAnswer.value === "correct10"; 
     if (correctAnswer) {
       score++;
     }
@@ -94,14 +94,14 @@ submitBtn.addEventListener("click", (event) => {
     });
   }
 
-  // Store the score and submission flag in local storage
+ 
   localStorage.setItem("score", score.toString());
   localStorage.setItem("hasSubmitted", "true");
   currentScore.textContent = `Score: ${score}`;
   submitBtn.disabled = true;
 });
 
-// Disable the submit button if the user has already submitted the quiz
+
 /*if (localStorage.getItem('hasSubmitted')) {
   submitBtn.disabled = true;
 }
@@ -114,25 +114,25 @@ resetBtn.addEventListener("click", (event) => {
     const questions = document.querySelectorAll(".question");
     const shuffledQuestions = Array.from(questions).sort(
       () => Math.random() - 0.5
-    ); // Shuffle the questions
+    ); 
     const quizContainer = document.getElementById("quiz-container");
 
     shuffledQuestions.forEach((question) => {
-      quizContainer.appendChild(question); // Re-append the shuffled questions to the quiz container
+      quizContainer.appendChild(question); 
     });
 
     questions.forEach((question) => {
       const answerOptions = question.querySelectorAll("input[type=radio]");
       answerOptions.forEach((option) => {
-        option.parentNode.removeAttribute("style"); // Remove the inline style attribute
-        option.disabled = false; // Enable the radio button
-        option.checked = false; // Uncheck the radio button
+        option.parentNode.removeAttribute("style");
+        option.disabled = false;
+        option.checked = false; 
       });
     });
 
     quizForm.reset();
     submitBtn.disabled = false;
-    localStorage.removeItem("score"); // clear the stored score from local storage
+    localStorage.removeItem("score"); 
     localStorage.removeItem("hasSubmitted");
     score = 0;
     currentScore.textContent = `Score: 0`;
@@ -156,10 +156,10 @@ const showAnswers = () => {
     const answerOptions = question.querySelectorAll("input[type=radio]");
     answerOptions.forEach((option) => {
       if (option.value === correctAnswers[index]) {
-        option.parentNode.style.color = "yellow"; // Highlight the correct answer in green
+        option.parentNode.style.color = "yellow"; // Highlight 
       }
 
-      option.disabled = true; // Disable the radio button so the user can't change their answer
+      option.disabled = true; 
     });
   });
 };
